@@ -1,0 +1,71 @@
+.drag-icon {
+    background-color: #3f51b5;
+    color: #fff;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+.example-box {
+    border: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.example-list {
+    max-width: 100%;
+    min-height: 60px;
+    display: block;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.drag-icon {
+    position: relative;
+}
+
+.drag-icon i {
+    cursor: move;
+}
+
+i.disable {
+    position: absolute;
+    cursor: not-allowed !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: transparent;
+}
+
+.cdk-drop-dragging .cdk-drag {
+    transition: transform 500ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drag-animating {
+    transition: transform 550ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drag-placeholder {
+    background: rgba(0, 0, 0, .2);
+}
+
+/* background: url(../images/icon-sorting.svg) no-repeat right center;
+    background-image: url(../images/icon-sorting.svg); */

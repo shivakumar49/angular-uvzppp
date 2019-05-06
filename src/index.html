@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Fonts Css -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap Date Picker CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css" />
+  <!-- Bootstrap data table CSS -->
+  <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+  <!--Theme Custom Css -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <title>BBSI</title>
+</head>
+<body id="body">
+  <app-root></app-root>
+
+   
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!--Datepicker Bootstrap Plugin-->
+  <script type="text/javascript" src="assets/js/moment-with-locales.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.min.js"></script>
+  <!--Data Table Bootstrap Plugin-->
+  <script src="assets/js/jquery.dataTables.min.js"></script>
+  <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+  <script src="assets/js/bootstrap-multiselect.js"></script>
+  <script src="assets/js/plugin.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    jQuery(document).ready(function () {
+
+
+      //Modal Backdrop Fixed
+      var modal_lv = 0;
+      jQuery('.modal').on('shown.bs.modal', function (e) {
+        jQuery('.modal-backdrop:last').css('zIndex', 1051 + modal_lv);
+        jQuery(e.currentTarget).css('zIndex', 1052 + modal_lv);
+        modal_lv++
+      });
+
+      jQuery('.modal').on('hidden.bs.modal', function (e) {
+        modal_lv--
+      });
+    });
+  </script>
+</body>
+</html>
