@@ -1,1 +1,5 @@
-/* Add application styles & imports to this file! */
+/* You can add global styles to this file, and also import other style files */
+.cdk-drag{ position: relative }
+.drag-icon{ position: absolute !important; top: 3px; right: 0; z-index: 9999; text-indent: -200000px; background-color: inherit !important }
+.cdk-drag-handle{ width:12px; height:12px; padding: 0 !important; background: url(assets/images/icon-drag-dark.svg) no-repeat 0 0; background-color: inherit !important; position: absolute !important; top: 3px; right: 0; z-index: 9999; text-indent: -200000px;  }
+..cdk-drag.cdk-drag-placeholder{ background-color: rgba(0,0,0,0) !important }
