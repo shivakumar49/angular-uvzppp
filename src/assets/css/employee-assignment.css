@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.text-underline{ border-bottom:2px solid #E9E9E9; padding-bottom:8px }
+.modal textarea.form-control{ height: 126px }
+/*Datepicker Css Customize*/
+.datepicker-dropdown{ width:280px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px; padding:15px }
+.datepicker table{ width:100% }
+.datepicker table thead{ background-color:#333; color:#fff; margin-bottom:6px }
+.datepicker table thead th{ color:#fff; font-size:14px; font-weight:500; text-shadow:inherit !important }
+.datepicker td, .datepicker th{ font-size:14px; font-weight:500; padding:5px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover{ background:#676767 }
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover{ background-image:inherit !important; background-color:#999 !important; color:#fff }
+.datepicker-days{ border:1px solid #999 }
+
+/*Form Control Css Customize*/
+.form-control:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+
+/*Tooltip Css Custimoze*/
+.tooltip-inner { border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; padding:5px 10px; font-size:13px }
+.dataTable-option{ display:none }
+@media(max-width:991px){ 
+	/*Nav Tab - Mobile View Css*/
+	.nav-tabs{ width: 100%; min-height: 42px; white-space: nowrap; display: flex; flex-direction: row; flex-wrap: nowrap; overflow-y: hidden; overflow-x: auto }
+	.nav-tabs li{  white-space: nowrap }
+	.nav-tabs .nav-item{ margin-right:0 } 
+	.nav-tabs .nav-item a{ width: auto; min-height: auto; padding: 10px 12px; background-color: inherit; border:none; border-bottom:2px solid rgba(0,0,0,0) !important } 
+	.nav-tabs .nav-item a figure{ display: none }
+	.nav-tabs .nav-link{ font-size: 16px }
+	.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{ background-color: inherit; border:none !important; border-bottom:2px solid #B93326 !important }	
+}
+@media(max-width:767px){
+	/*Data Table - Mobile View Css*/
+	ul.action-buttons{ margin-top: 10px }
+	ul.action-buttons li{ padding: 0 0 0 15px }
+	.dataTables_length{ width: 100%; overflow: hidden; margin-bottom: 0 }
+	.dataTables_filter{ width: 100% }
+	.main-container .search-section{ margin: 0 !important; display: block !important; opacity:1 !important; visibility: visible !important; position: relative; top: inherit; right: inherit;  background-color: inherit } 
+	.main-container .search-section input.form-control{ width: 237px; position: absolute; top: 0; right: -237px; display: none } 
+	.main-container .search-section.expendSearch input.form-control{ right: 0; display: block } 
+	.dataTables_length label{ padding-right: 0 }
+	.main-container .search-section .btn-search{ right:8px }	
+} 
+@media(max-width:575px){
+	/*Pagination - Mobile View Css*/
+	.pagination{ width: 100%; display: block}
+	.pagination li.page-item{  display:inline-block; margin: 2px 0 }	
+	
+	/*Data Table Options - Mobile View Css */
+	.dataTable-option{ width:22px; position: absolute; top:0; right:6px; display: block }
+	.dataTable-option img{ width:100%; height:auto; opacity:0.5; filter: alpha(opacity=50); /* For IE8 and earlier */ }
+	.dataTable-option.active img{ opacity:0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ }
+	ul.action-buttons{ opacity:0; visibility: hidden; display:flex; margin-top:0; position: absolute; top:-4px; right:30px; background-color: #fff; padding:5px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition:all 0.3s ease-in-out 0s }
+	ul.action-buttons.expend{ opacity:1; visibility: visible;  }
+}

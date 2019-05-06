@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="18px" viewBox="0 0 12 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon-profile-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.3168 0.615333333 10.1508 0.615333333 10.1508 10.4491333 0.3168 10.4491333"></polygon>
+        <polygon id="path-3" points="6.66666667e-05 0.0997333333 11.8006667 0.0997333333 11.8006667 5.99973333 6.66666667e-05 5.99973333"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-profile-light">
+            <g id="Group-3" transform="translate(0.666667, 0.051400)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M10.1508,5.53246667 C10.1508,4.17446667 9.60013333,2.94513333 8.71146667,2.0558 C7.8208,1.1658 6.59213333,0.615133333 5.23413333,0.615133333 C3.87546667,0.615133333 2.6468,1.1658 1.7568,2.0558 C0.867466667,2.94513333 0.3168,4.17446667 0.3168,5.53246667 C0.3168,6.89046667 0.867466667,8.1198 1.7568,9.00846667 C2.6468,9.89846667 3.87546667,10.4491333 5.23413333,10.4491333 C6.59213333,10.4491333 7.8208,9.89846667 8.71146667,9.00846667 C9.60013333,8.1198 10.1508,6.89046667 10.1508,5.53246667" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-6" transform="translate(0.000000, 11.384733)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <path d="M6.66666667e-05,4.03306667 C6.66666667e-05,5.0164 2.21273333,5.99973333 5.90073333,5.99973333 C9.36006667,5.99973333 11.8007333,5.0164 11.8007333,4.03306667 C11.8007333,2.0664 9.48606667,0.0997333333 5.90073333,0.0997333333 C2.21273333,0.0997333333 6.66666667e-05,2.0664 6.66666667e-05,4.03306667" id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

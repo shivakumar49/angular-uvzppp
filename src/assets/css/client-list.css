@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.list-group-item{ padding:.75rem 0 }
+.list-group-flush .list-group-item{ text-shadow:none !important }
+.list-group-flush .list-group-item a{ color:#838383; text-shadow:none !important }
+.list-group-flush .list-group-item a:hover{ color:#000My; text-shadow:none !important }
+.list-group-flush .list-group-item a strong{ font-weight:500 }

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.text-underline{ border-bottom:2px solid #E9E9E9; padding-bottom:8px }
+.employee-img{ position:relative; border:1px solid #979797 }
+.employee-img figure{ width:100%; display:block; margin:0; padding:0 }
+.employee-img figure img{ width:100%; display:block }
+.employee-img .btn-edit{ width:26px; height:26px; line-height:26px; border:1px solid #464646; background-color:#F1F1F1; position: absolute; bottom:13px; right:13px }
+.employee-img .btn-edit img{ width:15px; height:auto; display: block; margin:4px auto 0; opacity:0.5; filter:alpha(opacity=50) }
+.btn-view{ width:20px; height:12px;  position: absolute; top:6px; right:10px; opacity:0.5; filter:alpha(opacity=50); cursor:pointer }
+.btn-view:hover{ opacity:0.8; filter:alpha(opacity=80) }
+.card-body .card-header{ margin-left:0; margin-right:0; padding-bottom:0; padding-top:0; margin-bottom:14px }
+.custom-control-label{ color:#616161 }
+.modal textarea.form-control{ height: 126px }
+
+.custom-file-label{ border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.custom-file-label:after{ padding:0 18px; font-size:14px; line-height:36px; font-weight:400; color:#fff; background-color:#BA3326; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.card-header ul.action-buttons li img{ width: 10px; vertical-align: top; margin: 5px 3px 0 0 }
+.card-header ul.action-buttons li{ font-size: 14px }
+.client-short-info{ font-size:16px; font-weight: 500; padding-top: 3px; margin-bottom: 0 }
+
+/*Datepicker Css Customize*/
+.datepicker-dropdown{ width:280px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px; padding:15px }
+.datepicker table{ width:100% }
+.datepicker table thead{ background-color:#333; color:#fff; margin-bottom:6px }
+.datepicker table thead th{ color:#fff; font-size:14px; font-weight:500; text-shadow:inherit !important }
+.datepicker td, .datepicker th{ font-size:14px; font-weight:500; padding:5px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover{ background:#676767 }
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover{ background-image:inherit !important; background-color:#999 !important; color:#fff }
+.datepicker-days{ border:1px solid #999 }
+
+/*Form Control Css Customize*/
+.form-control:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+
+/*Tooltip Css Custimoze*/
+.tooltip-inner { border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; padding:5px 10px; font-size:13px }
+ 

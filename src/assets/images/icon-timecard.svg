@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>94D7186C-981F-4475-A0BE-C63FB2BAF80D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 8.46153846e-05 21.4990769 8.46153846e-05 21.4990769 21.4990769 0 21.4990769"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(-21.000000, -142.000000)">
+            <g id="Group-3" transform="translate(21.000000, 142.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M10.7495385,8.46153846e-05 C4.81292308,8.46153846e-05 0,4.81216154 0,10.7496231 C0,16.6862385 4.81292308,21.4991615 10.7495385,21.4991615 C16.6861538,21.4991615 21.4990769,16.6862385 21.4990769,10.7496231 C21.4990769,4.81216154 16.6861538,8.46153846e-05 10.7495385,8.46153846e-05 M14.6105385,16.7784692 L9.85346154,11.0720077 L9.85346154,3.64616154 C10.1504615,3.60723846 10.45,3.58608462 10.7495385,3.5827 C11.0490769,3.58608462 11.3486154,3.60723846 11.6456154,3.64616154 L11.6456154,10.4272385 L15.9813077,15.6319308 C15.5751538,16.0710846 15.114,16.4560846 14.6105385,16.7784692" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

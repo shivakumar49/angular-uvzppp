@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>timesheet-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu-bar" transform="translate(-17.000000, -254.000000)" fill="#000000">
+            <path d="M27.5,254 C21.7011965,254 17,258.70037 17,264.5 C17,270.298804 21.7011965,275 27.5,275 C33.2988035,275 38,270.298804 38,264.5 C38,258.70037 33.2988035,254 27.5,254 M31.2713712,270.388893 L26.6247245,264.814901 L26.6247245,257.561437 C26.91483,257.523418 27.207415,257.502755 27.5,257.499449 C27.792585,257.502755 28.08517,257.523418 28.3752755,257.561437 L28.3752755,264.185099 L32.6103196,269.26897 C32.2135941,269.69793 31.7631455,270.073992 31.2713712,270.388893" id="timesheet-icon"></path>
+        </g>
+    </g>
+</svg>

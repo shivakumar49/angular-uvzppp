@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#f8f8f8 }
+.login-section{ width:100%; min-height:100vh; overflow: hidden; background:url('../images/login-bg.jpg') no-repeat center bottom; position: relative; background-size: cover;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+justify-content: center }
+.login-section:after{ width:100%; height:100vh; content:''; position: absolute; top:0; left:0; z-index:2; background:rgba(25,49,67,0.3) }
+.login-section:before{ width:130%; height:calc(100vh - 40vh); content:''; position: absolute; bottom:-17vh; left:-15%; z-index:3; background-color:#f8f8f8;
+-ms-transform: rotate(-4deg); /* IE 9 */
+-webkit-transform: rotate(-4deg); /* Safari */
+transform: rotate(-4deg) } 
+.logo img{ max-width: 220px }
+.powered-text{ font-size:16px; line-height:18px; color:#fff; position:absolute; top: 44px; right:58px; z-index: 9 }
+.login-form{ max-width:388px; margin:35px auto; padding:34px; background-color: #fff; position: relative; z-index:4;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+box-shadow: 0 0px 8px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0 0px 8px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 0px 8px rgba(0,0,0,0.1) }	
+.login-form p{ font-size: 13px }
+.login-form .logo img{ margin-bottom:42px }
+.login-form h2{ font-size:28px; font-weight:500; color:#5A5A5A; background-color: inherit; text-align: center; padding-bottom:8px }
+.custom-control-label{ color:#B93326; font-size:14px }
+.custom-control-input:checked~.custom-control-label:before{ background-color:#666 !important }
+.agreed-text{ padding:20px 0; margin-bottom:20px; border-bottom: 1px solid #DBDBDB; text-align: center; color:#9C9C9C }
+.login-form input.form-control{ padding-left:37px }
+.i-username{ background:url('../images/icon-username.svg') no-repeat 10px center }
+.i-password{ background:url('../images/icon-password.svg') no-repeat 10px center }
+.copyright-text{ color:#9C9C9C; position: absolute; bottom:26px; right:36px; z-index:999; padding:0; margin:0 }
+.btn-primary{ color:#fff; background-color:#B93326; border-color:#B93326 }
+.btn-primary:hover{ color:#fff; background-color:#c82333; border-color:#c82333 }
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label{ color:#B93326 } 
+.custom-control-input.is-invalid~.custom-control-label:before, .was-validated .custom-control-input:invalid~.custom-control-label:before{ background-color:#dc3545; border-color:#dc3545 }
+.custom-control-input.is-valid~.custom-control-label:before, .was-validated .custom-control-input:valid~.custom-control-label:before{  background-color:#fff }
+.custom-checkbox .custom-control-input:checked~.custom-control-label:before{ border-color:#979797 }
+.form-control:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid{ border-color:#c9c9c9; border-bottom-color:#dc3545 }
+.btn-primary:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+.btn{ height:40px; line-height:38px }
+.form-control{ height:40px; line-height:38px }
+.login-form.forgot-password input.form-control{ padding-left:12px }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body{ width: 100%; overflow-x: hidden } 
+  .login-section{ display: table } 
+  .container-fluid{ height:100vh; display: table-cell; vertical-align: middle } 
+  .login-section:before{ height:calc(100vh - 45vh); bottom: -65px }
+}
+@media(max-width:1024px){ 
+	.login-form{ margin: 75px auto  } 
+}
+@media(max-width:812px){ 
+  .login-form{ padding: 35px 25px }
+  .login-form h2{ font-size: 22px } 
+}
+@media(max-width:480px){ 
+  .powered-text, .copyright-text{ right: 15px }
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.current-pay-info-section{ margin-bottom:35px }
+.pay-info-box{ width:100% }
+.icon-pay-type { width:48px; float:left }
+.pay-info{ margin-left:60px }
+.input-group-text{ background-color:#9B9B9B; color:#fff; border:none; font-weight:300; font-size:20px; font-family:'Roboto', sans-serif; padding:0 10px; 
+border-radius:0;
+-webkit-border-radius:0;
+-moz-border-radius:0 }
+
+/*Datepicker Css Customize*/
+.datepicker-dropdown{ width:280px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px; padding:15px }
+.datepicker table{ width:100% }
+.datepicker table thead{ background-color:#333; color:#fff; margin-bottom:6px }
+.datepicker table thead th{ color:#fff; font-size:14px; font-weight:500; text-shadow:inherit !important }
+.datepicker td, .datepicker th{ font-size:14px; font-weight:500; padding:5px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover{ background:#676767 }
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover{ background-image:inherit !important; background-color:#999 !important; color:#fff }
+.datepicker-days{ border:1px solid #999 }
+
+
+@media(max-width:767px){
+	/*Data Table - Mobile View Css*/ 
+	.main-container .search-section{ width: 100%; margin: 0 !important; display: block !important; opacity:1 !important; visibility: visible !important } 
+	.main-container .search-section{ position: relative; top: inherit; right: inherit;  background-color: inherit }
+	.main-container .search-section input.form-control{ width: 237px; position: absolute; top: 0; right: -237px; display: none } 
+	.main-container .search-section.expendSearch input.form-control{ right: 0; display: block } 
+	.dataTables_length label{ padding-right: 0 }
+	.main-container .search-section .btn-search{ right:8px }	
+} 
+

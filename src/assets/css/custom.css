@@ -1,0 +1,1694 @@
+/*!
+* BBSI v1.0.0
+* Copyright 2018  
+*/
+/* You can add global styles to this file, and also import other style files */
+ 
+/* THEME COLOR OPTION */
+/* THEME COLOR CHANGED - CSS START */
+/* GENERAL - CSS START */
+/* HEADING ELEMENT - CSS START */
+/* LOADER -  CSS START */
+/* HEADER CSS START */
+/* RESPONSIVE MOBILE MENU - CSS START */
+/* HEADER SEARCH BOX - CSS START */
+/* HEADER NOTIFICATION BOX -  CSS START */
+/* USER SETTINGS -  CSS START */
+/* FOOTER -  CSS START */
+/* MEGA MENU -  CSS START */
+/* FORM ELEMENT STYLE -  CSS START */
+/* BUTTON STYLE -  CSS START */
+/* BREADCRUMB -  CSS START */
+/* TEXT COLOR -  CSS START */
+/* BADGE -  CSS START */
+/* MAIN CONTAINER -  CSS START */
+/* RIGHT CINTENT SECTION -  CSS START */
+/* PAGE TITLE SECTION -  CSS START */
+/* RIGHT SECTIONS INNER PADDING -  CSS START */
+/* CARD CUSTOM -  CSS START */
+/* LIST STYLE -  CSS START */
+/* NAV TABS -  CSS START */
+/* DATA TABLE ACTION BUTTONS -  CSS START */
+/* TABLE CUSTOM -  CSS START */
+/* DATA TABLE CONTROLLER -  CSS START */
+/* MODAL CUSTOMIZE -  CSS START */
+/* SWITCH BUTTON CUSTOM -  CSS START */
+/* SEARCH BOX -  CSS START */
+/* PAY RATE PAGE-  CSS START */
+/* DATEPICKER CUSTOM-  CSS START */
+/* RADIO & CHECKBOX CUSTOM -  CSS START */
+/* FILE UPLOAD -  CSS START */
+/* ACCRODIAN CUSTOM -  CSS START */
+/* FAVOURITE CUSTOM -  CSS START */
+/* AUTOCOMPLETE CUSTOM -  CSS START */
+/* DROPDOWN MENU ACTIONS BUTTONS -  CSS START */
+/* BLOCK ELEMENT -  CSS START */
+/* CLIENT INFO PAGE -  CSS START */
+/* ERROR MESSAGE CUSTOM -  CSS START */
+
+/*=================================================================
+THEME COLOR OPTION
+========================================================================= */
+$color-white: #fff;
+$color-white-hover: #f2f2f2;
+$color-blue: #6677A1;
+$color-blue-hover: #52628b;
+$color-green: #68AF6C;
+$color-green-hover: #49964d;
+$color-red: #ff7676;
+$color-red-hover: #db3c2e;
+$color-primary: #012b56;
+$color-primary-hover: #012b56;
+$color-black: #fff;
+
+
+$color-black: #000;
+$color-gray-100: #f1f1f1;
+$color-gray-200: #e9e3e3;
+$color-gray-300: #d4cece;
+$color-gray-400: #b4afaf;
+$color-gray-500: #7f7f7f;
+$color-gray-600: #464646;
+$color-gray-700: #3f3c3c;
+$color-gray-800: #252424;
+$color-gray-900: #020202; 
+
+$color-black-hover: #191a1b;
+$color-gray-100-hover: #cecaca;
+$color-gray-200-hover: #bdbaba;
+$color-gray-300-hover: #b4b0b0;
+$color-gray-400-hover: #8f8a8a;
+$color-gray-500-hover: #706c6c;
+$color-gray-600-hover: #494848;
+$color-gray-700-hover: #2e2c2c;
+$color-gray-800-hover: #181616;
+$color-gray-900-hover: #191a1b; 
+
+/*=================================================================
+THEME COLOR CHANGED - CSS START
+========================================================================= */
+.bg-white{ background-color:#fff !important }
+.bg-light{ background-color:#f1f1f1 !important }
+.bg-danger{ background-color:#FF7676 !important }
+.bg-success{ background-color:#1bb9a2 !important }
+.bg-primary{ background-color:#005EFF !important }
+.bg-warning{ background-color:#ffd86d !important }
+
+/*=================================================================
+TEXT COLOR -  CSS START
+========================================================================= */
+.text-primary{ color:#005EFF !important }
+.text-success { color: #1bb9a2 !important }
+.text-secondary { color: #b4afaf !important }
+.text-danger { color: #ff7676 !important }
+.text-warning{ color:#ffd86d !important }
+.text-black{ color:#000 !important }
+
+/*=================================================================
+GENERAL - CSS START
+========================================================================= */
+body{ font:normal 14px/21px 'Roboto', sans-serif !important; color:#464646; background-color:#f5f5f5 }
+html{ font-size:100%; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100% }
+a{ color:#005EFF; cursor: pointer; outline:none !important }
+button, input, button:focus, button.focus, input.focus, input:focus, a:focus, a.focus{ outline:none !important }
+a:hover{ color:#333; text-decoration:none }
+a, .btn, input, .nav-text, aside, aside nav ul > li > ul{ outline: none;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition:all 0.3s ease-in-out 0s   }
+::-moz-selection { background: #012b56; color: #fff }
+::selection { background: #012b56; color: #fff }
+
+/*=================================================================
+HEADING ELEMENT - CSS START
+========================================================================= */
+h1{ font: 300 26px/28px 'Roboto', sans-serif; color:#2e3d4a; background-color: inherit; padding:0 0 12px; margin:0 }
+h2{ font: 300 22px/24px 'Roboto', sans-serif; color:#000; background-color: inherit; padding:0 0 12px; margin:0 }
+h3{ font: 400 18px/20px 'Roboto', sans-serif; color:#000; background-color: inherit; padding:0 0 12px; margin:0 }
+h4{ font: 500 14px/16px 'Roboto', sans-serif; color:#2e3d4a; background-color: inherit; padding:0 0 12px; margin:0 }
+h5{ font: 500 12px/14px 'Roboto', sans-serif; color:#2e3d4a; background-color: inherit; padding:0 0 12px; margin:0 }
+h6{ font: 500 10px/12px 'Roboto', sans-serif; color:#2e3d4a; background-color: inherit; padding:0 0 12px; margin:0 }
+h1.h1{ font-size:18px; line-height: 36px; margin-bottom: 0px; font-weight: 300 }
+h5.h5{ font-size:16px; font-weight:400; color: #242424 }
+/*Heading Element Responsive Css*/
+@media screen and (max-width: 991px) {
+	h1{ font-size:28px; line-height:28px }
+}
+@media screen and (max-width: 767px) {
+  h1{ font-size:24px; line-height:22px; margin-bottom:6px }
+  h2{ font-size:22px; line-height:22px; margin-bottom:6px }
+  
+}
+
+/*=================================================================
+PADDING CUSTOMIZE -  CSS START
+========================================================================= */
+@media screen and (max-width: 1199px) {
+  .pl-4, .px-4{ padding-left: 1rem !important; padding-right: 1rem !important }
+}
+
+/*=================================================================
+LOADER -  CSS START
+========================================================================= */
+.spinner{width:100%;height:100vh;display:table;position:fixed;top:0;left:0;z-index:9999;background:rgba(0,0,0,0.9)}
+.spinner-in{width:100%;height:100vh;text-align:center;display:table-cell;vertical-align:middle}
+.spinner-in>div{width:16px;height:16px;background-color:rgba(255,255,255,0.6);border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}
+.spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}
+.spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}
+.spinner.table{width:100px;height:16px;display:block;margin:15px auto;position:relative;top:inherit;left:inherit;z-index:9999;background:#fff}
+.spinner.table .spinner-in{width:100%;height:100%;text-align:center;display:block}
+.spinner.table .spinner-in>div{width:16px;height:16px;background-color:rgba(0,0,0,0.6);border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}
+.spinner.table .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}
+.spinner.table .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}
+@-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+.spinner2{width:auto;height:20px;margin:0 auto!important;display:block;position:fixed;top:50%;left:50%;z-index:9999;background:rgba(255,255,255,1)}
+.spinner2 .spinner-in{width:100%;height:100%;text-align:center;display:table-cell;vertical-align:middle}
+.spinner2 .spinner-in>div{background-color:rgba(0,0,0,0.6)}
+
+/*=================================================================
+HEADER CSS START
+========================================================================= */
+header{ height:52px; background-color:#fff; padding:0; 
+box-shadow: 0 0 7px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 0 7px rgba(0,0,0,0.15) }
+header .container-fluid{ padding-left:0; padding-right:0 }
+header .logo{ height:52px; display: inline-block; margin-left:20px; overflow: hidden;
+display: inline-flex;
+align-items: center }
+header .logo img{ max-width:138px } 
+/*=================================================================
+RESPONSIVE MOBILE MENU - CSS START
+========================================================================= */
+.hamburger-menu { width:53px; height:52px; float: left; text-align: center; border-right:1px solid #e4e4e4; cursor: pointer; margin:0 }
+/* @media(min-width:768px){
+  .hamburger-menu span { width:53px; height: 52px; display: block; margin: 0 auto; background: url('../images/icon-bento-menu.svg') no-repeat center }
+  .hamburger-menu span:nth-child(2), .hamburger-menu span:last-child{ display: none }  
+} */
+/* @media(max-width:767px){ */
+  .hamburger-menu{ padding-top: 17px }
+  .hamburger-menu span { width:24px; background:#7f7f7f; display: block;height: 2px; margin:0 auto 5px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition:all 0.3s ease-in-out 0s }
+  .body-menu-open .hamburger-menu{ width:53px; height:53px; padding-top:24px; z-index: 999; background-color: #2E3D4A }
+  .body-menu-open .hamburger-menu span{ height:2px; color:inherit; background-color:#fff  !important }
+  .body-menu-open .hamburger-menu span:first-child{ -ms-transform: rotate(50deg);  
+  -webkit-transform: rotate(50deg);  
+  transform: rotate(50deg) }
+  .body-menu-open .hamburger-menu span:nth-child(2){ display:none }
+  .body-menu-open .hamburger-menu span:last-child{ margin:-7px 0 0 14px; -ms-transform: rotate(-50deg); 
+  -webkit-transform: rotate(-50deg);  
+  transform: rotate(-50deg) } 
+/* }  */
+
+
+/*=================================================================
+HEADER SEARCH BOX - CSS START
+========================================================================= */
+header .search-section{ width:221px; height:32px; margin:10px 10px 0 8px; background-color:#fff; position: relative }
+header .search-section input.form-control{ width:100%; height:32px; border:1px solid #d1d1d1;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px }
+header .search-section .btn-search{ width:17px; height:17px; background:url('../images/icon-search.svg') no-repeat 0 0; border:none; position: absolute; top:7px; right:10px; opacity:0.3; cursor: pointer }
+header .search-section .btn-search:hover{ opacity:0.3; filter:alpha(opacity=60); /* For IE8 and earlier */ }
+.s-nav{ display:none } 
+/*=================================================================
+HEADER NOTIFICATION BOX -  CSS START
+========================================================================= */
+.notification-box, .member-box{ margin-right: 10px; margin-top:5px }
+.notification-box .dropdown img, .member-box .dropdown img{ opacity:0.6; filter:alpha(opacity=60); margin-right: 0 }
+.notification-box .dropdown.show img, .member-box .dropdown.show img{ opacity:0.8; filter:alpha(opacity=80) }
+.notification-box .dropdown-toggle:after, .member-box .dropdown-toggle:after{ display: none }
+.notification-link, .member-link{ width: 44px; height: 43px; position: relative; padding:10px 4px 0 5px;  display: block;
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px }
+.notification-link .badge{ width: 23px; height: 23px; font-size:12px; line-height: 17px; position:absolute; top:5px; left:16px  }
+.badge-primary{ background-color:#FF7676  }
+.notification-box .nav-pills .nav-link.active, .notification-box .nav-pills .show>.nav-link, 
+.member-box .nav-pills .nav-link.active, .member-box .nav-pills .show>.nav-link{ background-color:#f0f0f0 }
+header .dropdown-menu{ width: 240px; padding: 0; border: 1px solid #E6E6E6;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+box-shadow: 0 0 7px 0 rgba(0,0,0,0.08);
+-webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.08);
+-moz-box-shadow: 0 0 7px 0 rgba(0,0,0,0.08) }
+header .dropdown-item{ padding:12px 15px;  border-bottom: 1px solid #EBEBEB; font-size: 14px; line-height: 18px; font-weight: 400; color: #616161; }
+header .dropdown-item img{ margin-right: 8px }
+.notification-box .dropdown-item, .member-box .dropdown-item{ white-space:inherit; overflow: hidden }
+/* .notification-box .dropdown-menu.show, .member-box .dropdown-menu.show{ top:44px !important; left: inherit !important; right: 0 !important; transform: inherit !important } */
+.notification-box .dropdown-item span:first-child, .member-box .dropdown-item span:first-child{ color:#ff7676 }
+header .member-box .dropdown-menu{ width: 520px }
+.member-list{ padding: 0; margin: 0 }
+.member-list li{ width:50%; float: left; padding: 15px 10px; margin: 0; list-style: none }
+.member-list li img{ width: 42px; height: 42px; float: left; border:1px solid #f2f2f2;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100% }
+.member-rht-info{ margin-left: 56px }
+.member-rht-info p{ font-size: 14px; line-height: 18px; margin-bottom: 5px; word-break: break-all }
+/*=================================================================
+USER SETTINGS -  CSS START
+========================================================================= */
+.user-settings { float: right; margin-top:5px; margin-right:28px }
+.user-img{ width:32px; height:32px; float: left; margin:0 14px 0 0; background-position: center top !important;  background-repeat: no-repeat !important; background-size: cover !important;
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100% }
+.user-settings .nav-link{ color:#777; font-weight: 500; font-size: 14px; line-height:18px; padding:5px 0 0 }
+.user-settings .nav-link span{ font-weight: 300; line-height: 14px  }
+.user-settings .dropdown-toggle:after{ display: none }
+.user-settings .nav-pills .nav-link.active, .user-settings .nav-pills .show>.nav-link{ color: #4A4A4A; background-color:inherit }
+.user-settings .dropdown-menu{ width: 190px; top:44px !important; left: inherit !important; right: 0 !important; transform: inherit !important }
+.user-settings .dropdown-menu a:first-child.dropdown-item{ display:none }
+.user-settings .user-right{ margin-left:46px }
+.user-settings li strong{ font-weight: 500 }
+.search-section{ -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition:all 0.3s ease-in-out 0s }
+@media screen and (max-width: 767px) {
+	.user-settings .nav-link{ font-size:0 }
+	.user-settings .dropdown-menu a:first-child.dropdown-item{ display:block }
+	.user-img{ margin-right:0 }
+  .notification-box{ width: 38px; margin-right:10px }
+  .member-box{ width: 40px; margin-right:10px }
+  .member-link{  width: 40px }
+  .notification-box .dropdown img{ width:22px }
+  .member-box .dropdown img{ width: 28px; margin-right: 0 }
+	header .logo{ margin-left:0 }
+  header .logo img{ max-width:90px }
+  header .member-box .dropdown-menu{ width: 300px }
+  .member-list{ height: 200px; overflow-y: auto }
+  .member-list li{ width: 100%; border-bottom: 1px solid #f2f2f2 }
+  .member-list li img{ width: 42px !important; height: 42px !important }
+}
+@media screen and (max-width: 569px) {
+	.search-section{ opacity:0; visibility: hidden; display:none }
+	.search-section.expend{ opacity:1; visibility:visible; position: absolute; top:41px; right:15px; display:block }
+	.s-nav{ width:22px; position: absolute; top:13px; right:17px; display: block }
+	.s-nav img{ width:100%; height:auto; opacity:0.5; filter: alpha(opacity=50); /* For IE8 and earlier */ }
+	.s-nav.active img{ opacity:0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ }
+}
+
+
+
+/*=================================================================
+FOOTER -  CSS START
+========================================================================= */
+footer{ width:100%; padding:13px 0; background-color:#fff; font-size:12px; line-height:14px; position: relative; z-index:1; border-top: 1px solid #CECECE }
+footer p{ padding:0; margin:0; color:#6e6e6e; background-color: inherit }
+footer a{ color:#6e6e6e; background-color: inherit }
+footer a:hover{ color:rgba(255,255,255,0.7); background-color: inherit }
+.f-logo{ float: left }
+.f-logo img{ width:53px }
+/* footer.footer:after{ width: 52px; height: 100%; position: absolute; top: 0; left: 0; content:""; background-color: #2E3D4A }
+footer.footer:before{ width: 52px; height:5px; position: absolute; top:-3px; left: 0; content:""; background-color: #2E3D4A } */
+@media(max-width:767px){ 
+  .f-logo{ float: none; display: block; margin: 0 auto 8px }
+  footer{ margin-bottom:55px }
+  footer p{ margin-left: 0 }
+}
+
+
+/*=================================================================
+MEGA MENU -  CSS START
+========================================================================= */
+.sidenav{ width:100%; background-color:#2e3d4a; position: fixed; top:52px; left:-100%; z-index:9999; visibility: hidden; opacity:0 }
+.sidenav.active{ visibility: visible; opacity:1; left:0 }
+.sidenav-inner{ width:100%; overflow-y:auto; padding:25px 85px; position: relative; z-index:2 }
+.sidenav ul{ padding:0; margin:0 }
+.sidenav ul > li{ padding:0; margin:0; list-style:none; font-size:16px; color:#fff; font-weight:500 }
+.sidenav ul > li > a{ padding:7px 20px; display: block; background-image: inherit; color:rgba(255,255,255,0.8) }
+.sidenav ul > li > a:hover, .sidenav ul > li.active > a{ color: #999 }
+.sidenav ul > li > ul{ padding:10px 0 20px; margin:5px 0 0; border-top: 1px solid rgba(255,255,255,0.4) }
+.sidenav ul > li > ul > li{ padding:0; margin:1px 0 0; list-style:none; position: relative; font-size:14px; line-height:18px; font-weight:400 }
+.sidenav ul > li > ul > li > a{ padding:6px 38px 6px 34px; color:rgba(255,255,255,0.8); background-color: inherit }
+.sidenav ul > li > ul > li > a:hover, .sidenav ul > li > ul > li.active > a{ color:rgba(255,255,255,1); background-color:rgba(255,255,255,0.2) }
+.sidenav ul li img{ width:16px; position: absolute; top:6px; left:6px; opacity:0.8; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+.sidenav ul li a:hover img, .sidenav ul li.active a img{ opacity:1; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+.btn-close{ width:13px; height:13px; position: absolute; top:22px; right:22px; background:url('../images/icon-cancel.svg') no-repeat 0 0; background-size:100% }
+.btn-close img{ width:13px; height:auto }
+.favourite-icon{ width:14px; height:14px; position: absolute; top:7px; right:15px; background:url('../images/icon-favourite.svg') no-repeat 0 0; display: block; float:right; background-size:14px; opacity:0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ }
+.favourite-icon.active, .sidenav ul > li > ul > li > a:hover .favourite-icon{ opacity:1; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+.sidenav nav > ul{  
+   /* -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+   	column-count: 4;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    -ms-column-gap: 30px;
+    -o-column-gap: 30px;
+    column-gap: 30px */}
+.sidenav nav > ul > li {
+    -webkit-column-break-inside: avoid;
+    column-break-inside: avoid;
+    page-break-inside: avoid; 
+  }
+.sidenav{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition:all 0.3s ease-in-out 0s 
+}
+@media screen and (max-width: 1024px) {
+  .sidenav{ width: 100% }
+  .sidenav-inner{ width: 100% }
+  .sidenav nav > ul{ width: 100%;  -webkit-column-count: 3;
+      -moz-column-count: 1 !important;
+      -ms-column-count: 1 !important;
+      -o-column-count: 1 !important;
+      column-count: 1  !important }
+}
+@media screen and (max-width: 767px) {
+  .sidenav-inner{ padding-left: 30px; padding-right: 30px }
+  .sidenav nav > ul{  -webkit-column-count: 1;
+    -moz-column-count: 1 !important;
+    -ms-column-count: 1 !important;
+    -o-column-count: 1 !important;
+    column-count: 1 !important }
+}
+@media screen and (max-width: 569px) {
+  .sidenav nav > ul{  -webkit-column-count: 1;
+    -moz-column-count: 1 !important;
+    -ms-column-count: 1 !important;
+    -o-column-count: 1 !important;
+    column-count: 1 !important }
+}
+.sidenav .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;
+  border-top: 16px solid rgba(241, 241, 245, 0.322);
+  border-bottom: 16px solid rgba(241, 241, 245, 0.322);
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/*=================================================================
+FORM ELEMENT STYLE -  CSS START
+========================================================================= */
+label{ font-size: 14px !important; margin-bottom:.3rem }
+.form-control{ height:36px; padding:0 12px; border: 1px solid #C9C9C9; color:#616161; background-color: #fff; font-size: 15px; line-height: 34px;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px } 
+.form-control-plaintext{ font-size: 14px; line-height: 36px; color: #717171; padding-top: 0; padding-bottom: 0  } 
+.form-control-sm{ height:28px; padding:0 8px; font-size: 14px; line-height:26px }
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b1b1b1
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #b1b1b1
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #b1b1b1
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #b1b1b1
+}
+.invalid-feedback{ font-size:13px }
+.form-group{ margin-bottom:18px }
+select.form-control, select{ background: url('../images/down-arrow.png') no-repeat right center #fff;
+-webkit-appearance: none; -moz-appearance: none  }
+select.form-control:focus, select:focus{ background: url('../images/down-arrow.png') no-repeat right center #fff }
+header select.form-control:focus, header select:focus{ background: url('../images/down-arrow.png') no-repeat right center #fff; outline:none }
+select.form-control::-ms-expand, select::-ms-expand { display:none }
+select.form-control option, select option{ padding:10px 12px }
+select.form-control option:focus, select option:focus{ background-color:#258752 }
+textarea.form-control{ height:112px }
+select.form-control[multiple]{ padding: 0; background:inherit; color: #4A4A4A; background-color:#fff }
+select.form-control[multiple] option{ padding:5px 12px }
+.form-control:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+.input-group-text{ background-color:#9B9B9B; color:#fff; border:none; font-weight:300; font-size:20px; font-family:'Roboto', sans-serif; padding:0 10px }
+.form-control-plaintext{ font-size:16px }
+
+/*=================================================================
+BUTTON STYLE -  CSS START
+========================================================================= */
+.btn{ min-width: 96px; height:36px; font-size:14px; line-height:34px; font-weight: 400; padding:0 26px; text-align: center; outline: inherit !important;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px }
+.btn-primary{ color:#fff; background-color:#005EFF; border-color: #005EFF }
+.btn-primary:hover{ color:#fff; background-color:#094ea3; border-color: #094ea3 }
+.btn-primary.disabled, .btn-primary:disabled{ color:#fff; background-color:#14283f; border-color: #14283f }
+.btn-outline-primary{ color:#005EFF; background-color:inherit; border:1px solid #005EFF }
+.btn-outline-primary:hover{ color:#fff; background-color:#094ea3; border-color:#094ea3 }
+.btn-group-lg>.btn, .btn-lg{ height: 40px; line-height:38px }
+.btn-group-sm>.btn, .btn-sm{ height: 24px; line-height: 22px; font-size: 14px }
+.btn.disabled, .btn:disabled{ opacity: 0.6; filter: alpha(opacity=60) }
+.float-right .btn{ margin-left:11px }
+.float-left .btn{ margin-right:11px }
+.form-control.datepicker{ background: url('../images/icon-datepicker.png') no-repeat right center #fff; background-size:32px }
+.modal .form-control.border-0{ height: 22px; font-size: 14px; line-height: 22px; padding-left: 0; padding-right: 0 }
+.modal .form-control.datepicker.border-0{ padding-right:20px }
+.modal select.form-control.border-0{ background-size: 20px !important; padding-right: 0 }
+.modal .form-control.datepicker.border-0{ background-size:22px }
+.form-control.border-0:focus{ box-shadow:inherit }
+.form-control:disabled, .form-control[readonly]{ color:#A4A4A4; background-color:#ECECEC; border: 1px solid #C9C9C9 }
+.btn-danger{ background-color:#ff7676 }
+.btn-outline-danger{ color:#ff7676 !important; border:1px solid #ff7676 !important; background-color: inherit !important }
+.btn-outline-danger:hover{ color:#fff !important; border:1px solid #ff7676 !important; background-color: #ff7676 !important }
+.btn-view{ width:20px; height:36px; display:flex; align-items:center; position: absolute; top:0; right:10px; opacity:0.5; filter:alpha(opacity=50); cursor:pointer }
+.btn-view:hover{ opacity:0.8; filter:alpha(opacity=80) }
+.btn:focus{ box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7); box-shadow:0 0 6px 0 rgba(36, 165, 226, 0.7) }
+.btn-group-sm>.btn, .btn-sm{ height:28px; line-height: 26px  }
+@media screen and (max-width: 575px) {
+	.form-control{ font-size: 14px }
+}
+/*Button Disable*/
+.btn-primary.disabled, .btn-primary:disabled{ color:rgba(255,255,255,1); background-color:rgba(102,119,161,1); border-color: rgba(102,119,161,1) }
+.btn-outline-primary.disabled, .btn-outline-primary:disabled{ color:rgba(102,119,161,1) }
+.btn-outline-primary.disabled:hover, .btn-outline-primary:disabled:hover{ color:rgba(102,119,161,1); background-color: rgba(255,255,255,0) }
+.btn-outline-danger.disabled, .btn-outline-danger:disabled{ color:rgba(186,51,38,1) }
+.btn-outline-danger.disabled:hover, .btn-outline-danger:disabled:hover{ color:rgba(186,51,38,0.9); background-color: rgba(255,255,255,0) }
+
+/*=================================================================
+BREADCRUMB -  CSS START
+========================================================================= */
+.breadcrumb{ background-color:inherit; padding:0; margin:0 }
+.breadcrumb-item{ font-size: 14px; line-height: 14px; font-weight:400 }
+.breadcrumb-item a{ color:#005EFF }
+.breadcrumb-item.active{ color: #717171; background-color: inherit }
+.breadcrumb-item+.breadcrumb-item{ padding-left:12px }
+.breadcrumb-item+.breadcrumb-item:before{ padding-right:8px } 
+@media screen and (max-width: 991px) {
+	.breadcrumb{ padding-top: 4px }
+}
+@media screen and (max-width: 575px) {
+	.breadcrumb-item{ font-weight:400 }
+}
+
+
+/*=================================================================
+BADGE -  CSS START
+========================================================================= */
+.badge{ font-weight:400; border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%}
+	.badge-primary{ color: #fff; background-color: #FF7676; text-align: center; border:1px solid #fff }
+	
+/*=================================================================
+MAIN CONTAINER -  CSS START
+========================================================================= */
+.main-container{ width: 100%; min-height:100vh; overflow:hidden; margin-top:52px; position: relative }
+
+/*=================================================================
+RIGHT CINTENT SECTION -  CSS START
+========================================================================= */
+.right-content{ margin-left:53px; padding-bottom:30px; /* position: relative; */ z-index:1 }
+.right-content:before{ width: 53px; height: 100%; content: ''; position: absolute; top: 0; left:-53px; background-color:#fff; border-right:1px solid #d8d8d8 }
+@media screen and (max-width: 575px) {
+	.right-content{ margin-right:0; margin-left:53px }
+	.right-content:before{ left:-53px }
+}
+
+
+/*=================================================================
+RIGHT SECTIONS INNER PADDING -  CSS START
+========================================================================= */
+section .container-fluid{ padding-left:30px; padding-right:30px }
+@media(max-width:991px){
+	section .container-fluid{ padding-left: 15px; padding-right: 15px }
+}
+
+/*=================================================================
+CARD CUSTOM -  CSS START
+========================================================================= */
+.card{ border: 1px solid #D8D8D8; margin-bottom: 20px;
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	box-shadow: inherit;
+	border-radius: 0px;
+	-webkit-radius: 0px;
+	-moz-border-radius: 0px }
+.card-header{ background-color:transparent; padding:10px 0; margin-left: 15px; margin-right: 15px; border-bottom:inherit }
+.card-header h2{ padding-bottom:0 }
+.card-body{ padding-left:15px;  padding-right:15px; padding-bottom: 0 }
+.card-title{ font-size: 16px; color: $color-gray-900; padding-bottom:8px; margin-bottom: 0; border-bottom: 2px solid #E9E9E9; margin-top: 12px }
+.card-header .card-title{ border-bottom: none; margin-top: 0 }
+.tab-content .card{ margin-bottom: 0 }
+.card-body .card-header{ margin-left:0; margin-right:0; padding-bottom:0; padding-top:0; margin-bottom:14px }
+.card-header .custom-control{  margin-bottom: 0 }
+@media(max-width:767px){
+  .card-header h3{ font-size: 20px }
+}
+
+/*=================================================================
+CARD HEADER ACTION BUTTONS -  CSS START
+========================================================================= */
+ul.action-buttons{ padding:0; margin:0 20px 0 0 }
+ul.action-buttons li{ padding:0 0 0 20px; margin:0; list-style:none; float: left }
+ul.action-buttons li img{ vertical-align: top }
+ul.action-buttons li a:hover img{ opacity:0.8; filter:alpha(opacity=80); /* For IE8 and earlier */ }
+ul.action-buttons li .dropdown-toggle:after{ display: none }  
+
+/*=================================================================
+LIST STYLE -  CSS START
+========================================================================= */
+.list-group-item{ font-size:14px;line-height:16px;border-bottom:1px solid #E9E9E9;color:#4A4A4A; padding:.75rem 0 }
+.list-group-flush .list-group-item{ text-shadow:none !important }
+.list-group-flush .list-group-item a{ color:#838383; text-shadow:none !important }
+.list-group-flush .list-group-item a:hover{ color:$color-black; text-shadow:none !important }
+.list-group-flush .list-group-item a strong{ font-weight:500 }
+.list-group-item img{width:33px;height:33px;margin-right:8px}
+
+
+
+/*=================================================================
+NAV TABS -  CSS START
+========================================================================= */
+.tab-content{ margin-top:17px }
+.nav-tabs-wrapper{ padding: 0;  margin: 0; border-bottom: 1px solid #dcdcdc; }
+.nav-tabs{ width: 100%; min-height: 26px; border-bottom: none; white-space: nowrap; display: flex; flex-direction: row; flex-wrap: nowrap; overflow-y: hidden; overflow-x: auto }
+.nav-tabs .nav-item{ width:auto; margin-right: 1px; font-size:14px; line-height: 16px; border:none; white-space: nowrap }
+.nav-tabs .nav-item a.nav-link{ width: auto; min-height: auto; padding:0 40px 8px 0; margin-right:5px; color:#464646; background-color: inherit; border:inherit; 
+  border-bottom:2px solid rgba(0,0,0,0) !important; font: 400 16px/16px 'Roboto';  
+  border-top-left-radius:inherit !important; border-top-right-radius:inherit !important }
+.nav-tabs .nav-item .nav-link:focus, .nav-tabs .nav-item .nav-link:hover{ border: inherit !important; border-bottom: 3px solid #005EFF !important; background-color:transparent }
+.nav-tabs .nav-item.show a.nav-link, .nav-tabs .nav-item a.nav-link.active{ color:#005EFF; background-color:inherit; font-weight:500; border-bottom:3px solid #005EFF !important }
+.tab-content{ margin-top:17px } 
+.nav-tabs .nav-item a figure{ min-height: 28px; margin-bottom: 0 }
+.nav-tabs .nav-item a img{ opacity: 0.5; filter:alpha(opacity=50); display: block; margin: 0 auto }
+@media(max-width:991px){
+  .nav-tabs-wrapper{ margin: 0 }
+}
+
+/*Botatrap4 Data Table Customize css start*/ 
+table.table.dataTable thead th:before, table.table.dataTable thead th:after{ display:none }
+table thead th.sorting{ background:url('../images/icon-sorting.svg') no-repeat right center; background-size: 16px; opacity:1; filter: alpha(opacity=100); /* For IE8 and earlier */ }
+table thead th.sorting_asc{ background:url('../images/icon-sort-asc.svg') no-repeat right center; background-size: 16px; }
+table thead th.sorting_desc{ background:url('../images/icon-sort-desc.svg') no-repeat right center; background-size: 16px; }
+
+/*=================================================================
+TABLE CUSTOM -  CSS START
+========================================================================= */
+.table-responsive{ border-radius:5px !important;
+  -webkit-border-radius:5px !important;
+  -moz-border-radius:5px !important }
+.table-responsive table{ margin-bottom: 0;
+  box-shadow: 0 0 1px #a7a7a7;
+  border-radius:5px !important;
+  -webkit-border-radius:5px !important;
+  -moz-border-radius:5px !important }  
+  table.table-bordered{ border: 1px solid #e2e2e2  }
+table.table{ background-color:#fff; margin-top:0px !important; margin-bottom: 0 }
+table.table-bordered{ border:1px solid #e2e2e2 !important  }
+.table-bordered td, .table-bordered th{ border:1px solid #e2e2e2 }
+table.table tbody th, table.table tbody td{ font-weight: 400; color:#717171 }
+table.table td, table.table th{ padding:10px 20px 10px 0.8rem; font-size:14px }
+table.table td:first-child, table.table th:first-child{ padding:10px 1.5rem }
+.table-hover tbody tr:hover{ background-color:#eef2f6 }
+table.table thead{ background-color:#efefef; color:#2E3D4A; font-weight: 500 }
+table.table thead th{ font-weight: 500; border-bottom:none; border-top:none; white-space: nowrap }
+table.table-bordered th:first-child, table.table-bordered td:first-child{ border-left: inherit }
+table.table-bordered th:last-child, table.table-bordered td:last-child{ white-space: nowrap; border-right: inherit }
+.table-hover tbody tr.selected{ background-color: #eef2f6 }
+table.table tfoot td{ border-bottom: none }
+.table td, .table th{ vertical-align: middle }
+@media(max-width:1199px ){
+  table.table td:first-child, table.table th:first-child{ padding:10px 1.8rem 10px  1rem }
+}
+@media (min-width: 1024px) and (max-width: 10000px) {
+  /* Table Header Fixed */
+  .table-fixed{width:100%; border-collapse: collapse; border:1px solid #e2e2e2  }
+  .table-fixed thead{width:calc(100% - 17px) }
+  .table-fixed tbody{height:200px;overflow-y:auto;width:100%; border-top: 1px solid #e2e2e2}
+  .table-fixed thead,.table-fixed tbody,.table-fixed tr,.table-fixed td,.table-fixed th{display:block}
+  .table-fixed tbody td,.table-fixed tbody th{ min-height: 42px; float:left; border-collapse: collapse}
+  .table-fixed thead tr th{float:left}
+  table.table-bordered.table-fixed{ border:1px solid #e2e2e2 !important  }
+  .table-bordered.table-fixed td, .table-bordered.table-fixed th{ border: inherit !important }
+  .table-fixed.table-bordered thead th{ border-left:1px solid #e2e2e2 !important; border-bottom:none !important }
+  .table-fixed.table-bordered tbody th, .table-fixed.table-bordered tbody td{ border-left:1px solid #e2e2e2 !important; border-bottom:1px solid #e2e2e2 !important }
+  .table-fixed.table-bordered thead th:first-child, .table-fixed.table-bordered tbody th:first-child, .table-fixed.table-bordered tbody td:first-child{ border-left:inherit !important }
+}
+
+/*=================================================================
+DATA TABLE CONTROLLER -  CSS START
+========================================================================= */
+.dataTable-controller{ margin-top: 17px }
+.dataTables_length label{ float: left; padding: 8px 12px 0 0  }
+.dataTables_length select{ width: 65px; height: 36px; line-height: 34px; float: left; margin:0 10px }
+.dataTables_filter label{ padding-top: 8px; padding-right: 14px  }
+.dataTable-bottom{ margin-top:15px }
+.page-item:first-child .page-link{ border-top-left-radius:5px; border-bottom-left-radius:5px }
+.page-item:last-child .page-link{ border-top-right-radius:5px; border-bottom-right-radius:5px }
+.page-link{ border:1px solid #c4c4c4; color:#005EFF }
+.page-link:hover{ color:#fff; background-color:#005EFF }
+.page-item.active .page-link{ color:#fff; background-color:#005EFF; border-color:#c4c4c4 }
+.dataTable-controller .search-section input.form-control{ padding-right:28px; height:36px }
+.dataTable-controller .search-section .btn-search{ top:10px }
+.search-section{height:36px;margin:0;background:#fff;position:relative}
+.page-item.disabled .page-link{ color: #777 }
+.page-item.active.disabled .page-link{ color: #fff }
+.page-item.disabled{ opacity: 1 }
+.pagination{ margin-bottom: 0 }
+@media(max-width:767px){
+  /*Pagination - Mobile View Css*/
+  .page-item:first-child .page-link{ border-top-left-radius:0px; border-bottom-left-radius:0px }
+  .page-item:last-child .page-link{ border-top-right-radius:0px; border-bottom-right-radius:0px }
+	.pagination{ width: 100%; display: block; margin: 0 }
+	.pagination li.page-item{  display:inline-block; float: left; margin: 2px 0 }	
+}
+
+
+/*=================================================================
+MODAL CUSTOMIZE -  CSS START
+========================================================================= */
+.modal-content{ border: none;
+box-shadow: 0 0 16px 7px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0 0 16px 7px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 0 16px 7px rgba(0,0,0,0.1);
+border-radius: 5px !important; -moz-border-radius: 5px !important; -webkit-border-radius: 5px !important }
+.modal-header{ padding:14px; margin:0; border-bottom: 1px solid #EBEDF2 }
+.modal-header h5{ font-size:24px; line-height:20px; font-weight:300; color:#000; background-color:inherit; padding:0; margin:0 }
+.modal-body{ padding:14px 0; margin:0 14px }
+.modal .close{ font-weight:300; color:#868686; font-size:34px; font-family:"Times New Roman", Times, serif; padding:9px 14px 0; opacity:1 }
+.modal .close:hover{ color:#333 }
+.close:not(:disabled):not(.disabled):hover,.close:not(:disabled):not(.disabled):focus{opacity:.4;filter:alpha(opacity=40)}
+.modal-footer{ padding:15px 14px; margin:0; border:none }
+.modal-footer .btn{ min-width:96px; font-size:14px; font-weight:300 }
+.modal textarea.form-control{ height:80px; line-height: 18px; padding-top:7px; padding-bottom: 7px }
+.modal-xl{  max-width: 1100px }
+.modal-lg{max-width:800px}
+.modal-sm{max-width:406px}
+.modal p{ font-size:16px; color:#242424 }
+.modal h6{ font-size: 18px; line-height: 20px; font-weight: 400; padding:20px 0 15px; margin:0; color:#000; background-color: inherit }
+.modal .table-responsive{ overflow-y: hidden;  
+  border-radius:5px !important;
+  -webkit-border-radius:5px !important;
+  -moz-border-radius:5px !important  }
+.modal .table-responsive table{ margin-bottom: 0;
+   box-shadow: 0 0 1px #a7a7a7;
+  border-radius:5px !important;
+  -webkit-border-radius:5px !important;
+  -moz-border-radius:5px !important }  
+.modal .table.table-bordered{ border: 1px solid #e2e2e2  }
+.modal table.table td, .modal  table.table th{ padding: 8px 10px; word-break: break-all; vertical-align: top }
+.modal table.table thead th, .modal table.table thead td{ line-height: 16px }
+/* .modal .form-control{ background-color: inherit } */
+
+/*=================================================================
+SWITCH BUTTON CUSTOM -  CSS START
+========================================================================= */
+.switch input{display:none}
+.switch{display:inline-block;width:46px;height:24px;margin:0;position:relative}
+.switch + span{padding-top:5px;padding-left:5px;vertical-align:top}
+.slider{position:absolute;top:0;bottom:0;left:0;right:0;border-radius:30px;border:2px solid #777;background-color:#777;cursor:pointer;overflow:hidden;transition:.4s}
+.activeTheme{background-color:#b93226;border-color:#b93226}
+.linkColor{color:#b93226}
+.slider:before{position:absolute;content:"";width:100%;height:100%;background:#fff;border-radius:30px;transform:translateX(-23px);transition:.4s}
+.activeTheme.slider:before, input:checked + .slider:before{transform:translateX(23px);background:#fff}
+input:checked + .slider{background-color:#B93326;border:2px solid #B93326} 
+
+/*=================================================================
+SEARCH BOX -  CSS START
+========================================================================= */ 
+.search-section{ width:298px; height:36px; margin:0; position: relative }
+.search-section input.form-control{ width:100%; height:36px; border:1px solid #d1d1d1; padding: 0 28px 0 12px; }
+.search-section .btn-search{ width:17px; height:17px; background:url('../images/icon-search.svg') no-repeat 0 0; border:none; position: absolute; top:10px; right:10px; opacity:0.3; cursor: pointer }
+.search-section .btn-search:hover{ opacity:0.3; filter:alpha(opacity=60); /* For IE8 and earlier */ }
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    overflow: scroll;
+}
+@media(max-width:991px){
+  .search-section{ width:220px }
+}
+
+/*=================================================================
+PAY RATE PAGE-  CSS START
+========================================================================= */
+.current-pay-info-section{margin-bottom:35px}
+.pay-info-box{width:100%}
+.icon-pay-type{width:48px;float:left}
+.pay-info{margin-left:60px}
+.pay-input-group-text{background-color:#9B9B9B;color:#fff;border:none;font-weight:300;font-size:20px;font-family:'Roboto',sans-serif;padding:0 10px;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;align-items:center;display:flex}
+.pay-rate-display{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0;background:inherit;font:400 16px/20px Roboto!important,sans-serif}
+.pay-rate-headings{padding:0 0 12px;margin:0;background:inherit;font:400 20px/24px Roboto!important,sans-serif}
+.pay-vh-middle{display:flex;align-items:center}
+
+/*=================================================================
+DATEPICKER CUSTOM -  CSS START
+========================================================================= */
+.datepicker-dropdown{ width:280px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px; padding:15px }
+.datepicker table{ width:100% }
+.datepicker table thead{ background-color:#333; color:#fff; margin-bottom:6px }
+.datepicker table thead th{ color:#fff; font-size:14px; font-weight:500; text-shadow:inherit !important }
+.datepicker td, .datepicker th{ font-size:14px; font-weight:500; padding:5px; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover{ background:#676767 }
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover{ background-image:inherit !important; background-color:#999 !important; color:#fff }
+.datepicker-days{ border:1px solid #999 } 
+
+
+
+#toast-container>div{opacity:1}
+.disabled{opacity:.5;pointer-events:none}
+.code-master-datatable td{max-width:250px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;word-break:break-all}
+.disB { display: block }
+.text-underline{ border-bottom:2px solid #E9E9E9; padding-bottom:8px } 
+
+
+/*=================================================================
+FILE UPLOAD -  CSS START
+========================================================================= */
+.custom-file-label{ border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+.custom-file-label:after{ padding:0 18px; font-size:14px; line-height:36px; font-weight:400; color:#fff; background-color:#ff7676; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px }
+
+.dataTable-option{ display:none }
+
+
+.dropdown-scroll{ height:146px; overflow-y:auto } 
+.dropdown-menu{ 
+border-radius:0px;
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+-ms-transition: all 0.3s ease-in-out 0s;
+-o-transition: all 0.3s ease-in-out 0s;
+transition:all 0.3s ease-in-out 0s;
+box-shadow: 0 0 14px 0 rgba(0,0,0,0.16); 
+-webkit-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16); 
+-moz-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16) }
+@media(max-width:767px){
+	/*Data Table - Mobile View Css*/ 
+	ul.action-buttons{ margin-right: 40px }
+	ul.action-buttons li{ padding: 0 0 0 15px }
+	.dataTables_length{ width: 100%; overflow: hidden; margin-bottom: 0 }
+	.dataTables_filter{ width: 100% }
+	.main-container .search-section{ width: 100%; margin: 0 !important; display: block !important; opacity:1 !important; visibility: visible !important } 
+	.main-container .search-section{ position: relative; top: inherit; right: inherit;  background-color: inherit }
+	.main-container .search-section input.form-control{ width: 237px; position: absolute; top: 0; right: -237px; display: none } 
+	.main-container .search-section.expendSearch input.form-control{ right: 0; display: block } 
+	.dataTables_length label{ padding-right: 0 }
+	.main-container .search-section .btn-search{ right:8px }	
+} 
+@media(max-width:767px){
+	/*Data Table Options - Mobile View Css */
+	.dataTable-option{ width:22px; position: absolute; top:0; right:6px; display: block }
+	.dataTable-option img{ width:100%; height:auto; opacity:0.5; filter: alpha(opacity=50); /* For IE8 and earlier */ }
+	.dataTable-option.active img{ opacity:0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ }
+ 
+}
+
+/*=================================================================
+FAVOURITE CUSTOM -  CSS START
+========================================================================= */
+/*Aside css*/ 
+aside{ width:53px; height:100%; padding:0; background-color: #2E3D4A; position: absolute; top:0; bottom: 0; left:0; z-index:9; border-right:1px solid #d8d8d8 }
+aside nav{ padding: 0; margin: 0; background-color:#2E3D4A }
+aside nav > ul{ padding:15px 0 0; margin: 0 }
+aside nav ul > li{ height:46px; padding: 0; margin: 0 0 1px;  list-style: none; position: relative }
+aside nav ul > li > a{ padding:12px 0; text-align: center; display:block }
+aside nav ul > li img{ opacity:0.6; height:18px }
+aside nav ul > li img.icon-dark{ opacity:0.6; vertical-align:top; display: none }
+aside nav ul > li img.icon-white{ display: inline-block; vertical-align:top }
+aside nav ul > li:hover img.icon-dark, aside nav ul > li.active img.icon-dark{ display:none }
+aside nav ul > li:hover img.icon-white, aside nav ul > li.active img.icon-white{ display:block; margin:0 auto }
+aside nav ul > li.active > a{ text-align: left; background-color:#2E3D4A }
+aside nav ul > li:hover > a span.nav-text{ left:7px; z-index:1; text-align: left; visibility:visible; opacity: 1; background-color:#2E3D4A;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: 0 4px 7px 0 rgba(0,0,0,0.13);
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0,0,0,0.13);
+  -moz-box-shadow: 0 4px 7px 0 rgba(0,0,0,0.13) }
+aside nav ul > li > a span.icon{ width: 53px; display: inline-block; text-align: center; z-index: 2; position: relative }
+aside nav ul > li span.nav-text{ height: 34px; font-size: 16px; font-weight: 500; white-space:nowrap; visibility: hidden; opacity: 0; padding:6px 18px 6px 42px; color:#fff; background-color: #58B8FF; position:absolute; top:5px; left:0 }
+
+
+/*Nav Expend css*/
+aside.expend{ width:231px; overflow-y: auto; padding-top:81px; position:fixed; top:0; left: 0; z-index: 9 }
+aside.expend nav ul > li > a{ text-align: left }
+aside.expend nav ul > li.has-child > a{ background: url('../images/down-arrow-white.png') no-repeat right 21px }
+aside.expend nav ul > li > a span.icon{ width: 41px }
+aside.expend nav ul > li > a span.nav-text{ opacity: 1; visibility: visible; position: relative; top: inherit; left:inherit; padding:9px 0 0; background-color:transparent }
+aside.expend nav ul > li:hover > a span.nav-text{ 
+  box-shadow:inherit;
+  -webkit-box-shadow:inherit;
+  -moz-box-shadow:inherit }
+aside.expend nav ul > li:hover > a{ text-align: left; border-left: 2px solid  #fff; background-color: rgba(255,255,255,0.4); }
+/*Sub Child Css*/
+aside nav ul > li > ul{ width:190px; position: absolute; top: 42px; left: 0; opacity:0; visibility: hidden; background-color:#005EFF;
+  border-radius:0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0 }
+aside nav ul > li > ul > li > a{ padding:8px 15px;  text-align: left; color:  #fff; background-color:#005EFF; font-size: 15px; font-weight:400  }
+aside nav ul > li > ul > li:first-child > a{ 
+  border-radius: 0 4px 0 0;
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0 }
+aside nav ul > li > ul > li:last-child > a{ 
+  border-radius: 0 0 4px 0;
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0 } 
+aside nav ul > li > ul > li > a:hover{ color: #fff; background-color:rgba(0,0,0,0.1)  }
+/*Sub Child Expend Css*/
+aside.expend nav ul > li > ul{ width:auto; height: 0px; position:relative; top:inherit; left:inherit; background-color: inherit; opacity:0; visibility:hidden }
+aside.expend nav ul > li > ul > li{ padding: 0; margin:1px 0 0; list-style: none }
+aside.expend nav ul > li > ul > li > a{ color: #fff; padding:12px 15px 12px 45px; text-align: left; border-left: 2px solid rgba(0, 0,0,0); display:block; font-size: 15px; font-weight:400 }
+aside.expend nav ul > li > ul > li > a:hover{ background-color:rgba(0,0,0,0.1)  }
+/*Nav Hover option Css*/
+aside nav ul > li:hover ul{ opacity:1; visibility:visible; padding: 0; top:42px; left: 100% }
+aside.expend nav ul > li:hover ul{ height:auto; opacity:1; visibility:visible; top:inherit; left: inherit; padding: 0 }
+.btn-aside-option{ opacity:0; visibility:hidden }
+.aside-mobile-section{ opacity:0; visibility:hidden }
+@media(max-width:767px){ 
+	.right-content{ margin-left:0 }
+	aside{ width:100%; height:55px; position: fixed; top:calc(100% - 55px); left:0; border-top:1px solid #d8d8d8; border-right: none; z-index:9 }
+  aside nav{ width:calc(100% - 20%); height:55px; float: left }
+  aside nav > ul{ padding-top: 0 }
+	aside nav ul > li{ width:25%; height:55px; float: left; z-index:9 }
+	aside nav ul > li > img{ display: block; margin:0 auto }
+	aside nav ul > li > a{ padding:16px 0 }
+	aside nav ul > li > a span.icon{ width:100% }
+	aside nav ul > li span.nav-text{ display:none }
+	aside nav ul > li:hover img.icon-dark, aside nav ul > li.active img.icon-dark{ display:none }
+	aside nav ul > li:hover img.icon-white, aside nav ul > li.active img.icon-white{ display:block; margin:0 auto }
+	aside nav ul > li.active > a, aside nav ul > li.focus a, aside nav ul > li:focus a, aside nav ul > li:hover a{ background-color:#ff7676 }
+	/*Sidebar Mobile View*/
+	.btn-aside-option{ width:20%; float:right; opacity:1; visibility:visible }
+	.btn-aside-option img{ width:28px; display: block; margin:13px auto 0; opacity: 0.6;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg) } 
+	.aside-mobile-section{ width:280px; max-height:calc(100vh - 107px); overflow-y:auto; position:absolute; bottom:55px; right:-280px; z-index:9; visibility:hidden; opacity:0; background-color:#fff; 
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition:all 0.3s ease-in-out 0s 	}
+	.aside-mobile-section.show{ position:absolute; right:0; visibility:visible; opacity:1 }
+	.aside-mobile-section:after{ width:100%; height:calc(100vh - 55px); position:fixed; right:0; bottom:55px; content:''; z-index:-1; visibility:hidden; opacity:0; background:rgba(0,0,0,0.5) }
+	.aside-mobile-section.show:after{ z-index:-1; visibility:visible; opacity:1 }
+	aside .aside-mobile-section nav { width:100%; height:auto }
+	aside .aside-mobile-section nav ul > li{ width:100%; height:45px; border-bottom:1px solid rgba(0,0,0,.125) }
+	aside .aside-mobile-section nav ul > li:last-child{ border-bottom:inherit }
+	aside .aside-mobile-section nav ul > li > a{ width:100%; padding:12px 15px; display:block; overflow:hidden }
+	aside .aside-mobile-section nav ul > li > a span.icon{ width:22px; display:block; text-align:left; float:left }
+	aside .aside-mobile-section nav ul > li:hover img.icon-white, aside .aside-mobile-section nav ul > li.active img.icon-white{  margin:0 }
+	aside .aside-mobile-section nav ul > li span.nav-text{ height:auto; font-size:14px; color:#fff; position:relative; top:inherit; left:inherit; opacity:1; visibility:visible; display:block; background-color:inherit; padding:0 0 0 12px; float:left }
+	aside .aside-mobile-section nav ul > li.active span.nav-text{ color:#fff }
+	aside .aside-mobile-section nav ul > li.active img, aside .aside-mobile-section nav ul > li:hover img{ opacity:0.9  }
+	aside .aside-mobile-section nav ul > li:hover > a span.nav-text{ left:inherit; color:rgba(255,255,255,0.9); background-color:transparent;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  box-shadow: inherit;
+  -webkit-box-shadow: inherit;
+  -moz-box-shadow: inherit }
+}
+
+/*=================================================================
+AUTOCOMPLETE CUSTOM -  CSS START
+========================================================================= */
+.autocomplete-items div{padding:10px;cursor:pointer;background-color:#fff;border-bottom:1px solid #d4d4d4}
+/*when hovering an item:*/
+.autocomplete-items div:hover{background-color:#e9e9e9}
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active{background-color:#1e90ff!important;color:#fff}
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active { -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out  }
+
+
+/*=================================================================
+DROPDOWN MENU ACTIONS BUTTONS -  CSS START
+========================================================================= */
+.action-buttons .dropdown-menu{ padding:0px; margin: 0px }
+ul.action-buttons li{ position:relative }
+.action-buttons a .dropdown-menu{ width:186px }
+.action-buttons a .dropdown-toggle:after{ display:none }
+.action-buttons a .dropdown-menu.show{ top:100% !important }
+.action-buttons li a.dropdown-item{ padding:9px 15px !important; border-bottom: 1px solid #EBEBEB; font-size: 14px; line-height: 18px; font-weight: 400; color: #464646; }
+.action-buttons a.dropdown-item:last-child{ border-bottom:none } 
+.dropdown img{ margin-right:5px }
+.dropdown-toggle:after{ display: none }
+.right-content .dropdown-menu{ padding: 0 }
+.right-content a.dropdown-item{ padding:9px 15px !important; border-bottom: 1px solid #EBEBEB; font-size: 14px; line-height: 18px; font-weight: 400; color: #464646; }
+
+/*=================================================================
+BLOCK ELEMENT -  CSS START
+========================================================================= */
+app-block{display:block;border-top:#999}
+.heading{background-color:#fff;color:#616161;border-bottom:inherit;font-weight:400;border:1px solid #d1d1d1;font-size:15px;padding:5px 12px}
+app-block.block:last-of-type .container-fluid .heading{border-bottom-width:1px}
+.heading.active{width:100%;padding:5px 12px;background-color:#ECECEC;color:#616161;border:1px solid #d1d1d1;border-bottom:0;font-size:15px;font-weight:500;background-size:20px}
+/*img{width:20px;height:20px;float:right}*/
+.block .heading.invalid{background:#f25367;border:1px solid #f25367}
+.heading.valid{background:#00b551;border:1px solid #00b551}
+.other{word-break:break-all}
+.content{padding:15px 12px;border:solid rgba(0,0,0,.125);position:relative;background:#fff;border-width:1px 1px 0}
+.content.invalid,.content.valid{background:#eee}
+.content.closed{height:0;overflow:hidden;padding:0;border-width:0}
+.show-hide{position:absolute;top:50%;right:10px;transform:translateY(-50%)}
+
+
+/*=================================================================
+CLIENT INFO PAGE -  CSS START
+========================================================================= */
+.client-short-info{ font-size:16px; font-weight: 500; padding:20px 0 15px; margin-bottom: 0 }
+.employee-img{ position:relative; border:1px solid #979797 }
+.employee-img figure{ width:100%; display:block; margin:0; padding:0 }
+.employee-img figure img{ width:100%; display:block }
+.employee-img .btn-edit{ width:26px; height:26px; line-height:26px; border:1px solid #464646; background-color:#F1F1F1; position: absolute; bottom:13px; right:13px }
+.employee-img .btn-edit img{ width:15px; height:auto; display: block; margin:4px auto 0; opacity:0.5; filter:alpha(opacity=50) }
+
+
+/*=================================================================
+ERROR MESSAGE CUSTOM -  CSS START
+========================================================================= */
+.fieldError{color:#f25367 !important; font-size:13px !important; line-height:16px !important; margin:0  !important; padding:10px 0 0 !important; font-weight:400  !important}
+.fieldHighlight input,.fieldHighlight select,.fieldHighlight textarea{border:1px solid #f25367 !important}
+.input-invalid{ border-bottom: 2px solid #F25367 !important }
+.error-message{ font-size: 13px; color: #f25367 !important; font-weight: 400 !important }
+
+/*=================================================================
+ROW WITH EQUAL HEIGHT COLUMN -  CSS START
+========================================================================= */
+.row-eq-height { display: -webkit-box;  display: -webkit-flex; display: -ms-flexbox; display: flex }
+.vh-middle{ display:flex; align-items: center }
+
+
+
+
+/*Add Css 29.01.2019*/
+.scroll-fixed{ overflow-y:hidden }
+
+
+.action-buttons .dropdown-menu{ display:block; padding:0; opacity:0; visibility:hidden; transform:inherit !important; left:inherit !important; right:0 !important; 
+border-radius:0px;
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+-ms-transition: all 0.3s ease-in-out 0s;
+-o-transition: all 0.3s ease-in-out 0s;
+transition:all 0.3s ease-in-out 0s;
+box-shadow: 0 0 14px 0 rgba(0,0,0,0.16); 
+-webkit-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16); 
+-moz-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16) }
+.dropdown-menu.show{ opacity:1; visibility:visible }
+
+input[autocomplete="disabled"]{ color:#616161 }  
+
+
+.nav-tabs.nav-2{ border-bottom: 1px solid #333; padding-left: 1%; }
+.nav-tabs.nav-2 .nav-item{ width: 16.5%; margin-right: 1px }
+.nav-tabs.nav-2 .nav-item a.nav-link{ width: auto; min-height: auto; border:inherit; font-size: 15px; padding: 16px 0 8px 5px; text-align:left }
+.nav-tabs.nav-2 .nav-item.show .nav-link, .nav-tabs.nav-2 .nav-link.active{ border: inherit !important; border-bottom: 3px solid #005EFF !important; background-color: transparent }
+.nav-tabs.nav-2 .nav-link:focus, .nav-tabs.nav-2 .nav-link:hover{ border: inherit !important; border-bottom: 3px solid #005EFF !important; background-color:transparent }
+
+.btn-view.dobBtn{ right: 46px }
+.custom-file-label:after{ background-color: #616161 }
+.required{ border-color: #209237 !important }
+
+
+/*=================================================================
+COMPANY MANAGEMENT CUSTOM -  CSS START
+========================================================================= */
+
+
+.active-status-section{ margin: 7px 0 0 } 
+
+
+
+
+/*=================================================================
+COMPANY MANAGEMENT CUSTOM -  CSS START
+========================================================================= */
+.icon-action{ margin-right:10px }
+.icon-action:hover{ opacity: 0.9 }
+.new-project{ color:#005EFF }
+.new-project img{ width: 18px; margin-right: 5px }
+
+.hidden_div, #hidden_div1{display: none }
+
+/*=================================================================
+ROUNDED CORNER -  CSS START
+========================================================================= */ 
+.rounded{ border-radius: 5px !important; -moz-border-radius: 5px !important; -webkit-border-radius: 5px !important }
+
+/*=================================================================
+SHADOW CUSTOM -  CSS START
+========================================================================= */ 
+.shadow{ box-shadow:0 0 20px rgba(0,0,0,0.09) !important; 
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.09) !important; 
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.09) !important } 
+  
+/*=================================================================
+ICON SIZE -  CSS START
+========================================================================= */ 
+.fa-xs{ width: 12px }
+.fa-sm{ width: 18px }
+.fa-lg{ width: 20px } 
+
+/*=================================================================
+MULTISELECT CUSTOMIZE -  CSS START
+========================================================================= */
+.multiselect { height: 22px; line-height: 22px; text-align: left; background-color: transparent; color: #616161; font-size: 14px; padding: 0 }
+span.multiselect-native-select{position:relative}
+span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}
+.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}
+.multiselect-container .input-group{margin:5px}
+.multiselect-container .multiselect-reset .input-group{width:93%}
+.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}
+.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px;height:100%;font-weight:700}
+.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}
+.multiselect-container>li>a{padding:0}
+.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 10px}
+.multiselect-container>li>a>label.checkbox,.multiselect-container>li>a>label.radio{margin:0}
+.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}
+.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 10px }
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
+.multiselect .caret{ width: 25px; height: 8px; display: inline-block; background: url('../images/down-arrow.png') no-repeat right center }
+
+
+
+
+
+
+
+
+
+/*
+|
+|
+|
+
+|
+|
+|/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+
+//
+
+/
+
+/
+/
+/
+/
+|
+|
+|
+|
+|
+|
+|||
+|
+|
+
+
+||
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*=================================================================
+NAV TABS -  CSS START
+========================================================================= */
+.tab-content{ margin-top:15px; margin-bottom:0 }
+
+/*=================================================================
+PAGE TITLE SECTION -  CSS START
+========================================================================= */
+.page-title-box{ padding:0 } 
+.page-title-box h1{ margin: 15px 0 } 
+.page-title-box .breadcrumb{ background-color:inherit; padding:24px 0 15px; margin:0 }
+@media screen and (max-width: 991px) {
+  .page-title-box .breadcrumb{ padding:24px 0 0 }
+}
+@media screen and (max-width: 767px) {
+  .page-title-box .breadcrumb{ padding:0 0 15px }
+}
+
+/*=================================================================
+SELECT LIST DISABLE -  CSS START
+========================================================================= */
+.form-control:disabled, .form-control[readonly]{ border-color:#ECECEC; background-color: #ECECEC !important; color:#616161 !important; opacity:1; }
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #616161
+}
+.form-control::-moz-placeholder[readonly] { /* Firefox 19+ */
+  color: #616161
+}
+.form-control:-ms-input-placeholder[readonly] { /* IE 10+ */
+  color: #616161
+}
+.form-control:-moz-placeholder[readonly] { /* Firefox 18- */
+  color: #616161
+}
+
+/*=================================================================
+PARAGRAPH ELEMENT -  CSS START
+========================================================================= */
+p.p1{ font-weight: 400; color:#717171; font-size: 16px; line-height: 18px }
+
+/*=================================================================
+ADD NEW BUTTON CUSTOMIZE -  CSS START
+========================================================================= */
+.add-new img{ width: 18px; margin-right:5px  }
+.btn-icon{ width: 14px; height: auto; padding: 0; margin: 0 10px 0 0; background-color: transparent; display:inline-block; outline:inherit; border:none; cursor: pointer; z-index:1 }
+.btn-icon:disabled{ opacity:0.6; cursor:default }
+.btn-icon:last-child{ margin-right: 0px }
+
+/*=================================================================
+CARD CUSTOMIZE -  CSS START
+========================================================================= */
+.card-body{ padding: 0 15px }
+
+/*=================================================================
+DATEPICKER CUSTOMIZE -  CSS START
+========================================================================= */
+.form-control.datepicker{ background-size: 27px }
+
+/*=================================================================
+RADIO & CHECKBOX CUSTOM -  CSS START
+========================================================================= */
+.custom-control{ padding-left: 26px; min-height: 16px; margin-bottom: 12px } 
+.custom-control-label{ line-height: 16px; vertical-align:top }
+table.table .custom-control{ vertical-align:middle }
+table.table thead th .custom-control, table.table tbody th .custom-control{ margin:0; padding-left: 16px }
+table.table thead th .custom-control-label:before, table.table tbody .custom-control-label:before,
+table.table thead th .custom-control-label:after, table.table tbody .custom-control-label:after{ left: -16px }
+table.table .custom-control-label{ line-height: 16px; vertical-align:top }
+.custom-control-label:before{ width: 16px; height: 16px; top: 0; left: -26px; border:1px solid #c9c9c9; background-color:#fff }
+.custom-control-label:after{ width: 16px; height: 16px; top:0; left: -26px } 
+.custom-checkbox .custom-control-label:before{ border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px }
+.custom-radio .custom-control-input:checked~.custom-control-label:after{ width: 6px;  height: 6px; background-color:#fff; top:5px; left:-21px;
+border-radius:100%;
+-webkit-border-radius:100%;
+-moz-border-radius:100% }
+.custom-radio .custom-control-input:checked~.custom-control-label:before{ background-color:#005EFF }
+.custom-radio .custom-control-input:checked ~ .custom-control-label:before{ border-color:#005EFF }
+.custom-checkbox .custom-control-input:checked~.custom-control-label:before{ background-color:#005EFF; border-color:#005EFF }
+/*Custom Checkbox & Radio Button Disable Css*/ 
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label:before{ background-color:#e9ecef; border:1px solid #c9c9c9 }
+.custom-radio .custom-control-input:disabled:checked~.custom-control-label:after{ background-color:#8f8f8f }
+.custom-radio .custom-control-input:disabled:checked~.custom-control-label:before{ background-color:#e9ecef; border-color:#979797 }
+.custom-control.right-check{ padding-left:0; padding-right:1.5rem }
+.custom-control.right-check .custom-control-label:before{ left:inherit; right:-1.5rem }
+.custom-control.right-check .custom-control-label:after{ left:inherit; right:-1.5rem }
+.custom-control-input:disabled~.custom-control-label::before{ background-color:#ececec }
+
+
+/*=================================================================
+MODAL CUSTOMIZE -  CSS START
+========================================================================= */
+.modal-footer{ padding: 0 30px 15px }
+.modal p{ font-size: 16px; line-height: 30px; color:#020202 }
+
+/*=================================================================
+TABLE CUSTOM -  CSS START
+========================================================================= */
+/* table.table tbody th a, table.table tbody td a{ color: #717171 } */
+.table-responsive.rounded{ border:1px solid #e2e2e2; margin-bottom: 10px;
+  border-radius:5px !important;
+  -webkit-border-radius:5px !important;
+  -moz-border-radius:5px !important }  
+.table-responsive.rounded table{ border-collapse: collapse; margin-bottom: 0  }
+.table-responsive.rounded table td, .table-responsive.rounded table th{ border-right:1px solid #e2e2e2; border-collapse: collapse  }
+.table-responsive.rounded table td:last-child, .table-responsive.rounded table th:last-child{ border-right:none  }
+
+/*=================================================================
+NEW HIRE CUSTOM -  CSS START
+========================================================================= */ 
+.new-hire-profile-img{ width:80px; height:80px; position: relative; float: left }
+.new-hire-img{ width:100%; height:100%; border: 1px solid rgba(0,0,0,0.1); background-size: 100%; background-repeat: no-repeat; background-position: center top;
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100% }
+.new-hire-profile-img .btn-edit{ width: 26px; height:26px; background: #fff; padding: 6px; position: absolute; bottom: 0; right: 0;
+	box-shadow: 0 0 1px rgba(0,0,0,0.7);
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%; }
+.new-hire-profile-img .btn-edit img{ width:12px; margin: 0 auto; display:block; vertical-align: top }
+.user-info{ margin-left:110px  }
+.user-info a{ text-decoration:underline }
+.user-info a:hover{ text-decoration:none } 
+.new-hire-info p{ font-size: 15px }
+.new-hire-info p a{ color: rgba(0,0,0,0.5); text-decoration: none }
+
+/*=================================================================
+ACCRODIAN CUSTOM -  CSS START
+========================================================================= */
+.accordion .card{ margin-bottom:0 }
+.accordion .card-header{ margin-bottom:0; border-bottom:none !important }
+.accordion h2{ padding-bottom:0 }
+.accordion .btn{ width:100%; text-align:left; padding:0 12px; border:none; background-color:#ECECEC; color:#616161; border-bottom:1px solid #d1d1d1; font-size:15px; font-weight:500; background:url("../images/icon-down-arrow-dark-light.svg") no-repeat right center #ECECEC; background-size:20px }
+.accordion .btn.collapsed{ background-color:#fff; color:#616161; border-bottom:inherit; font-weight:400; border-bottom:1px solid rgba(0,0,0,0); background:url("../images/icon-right-arrow-dark-light.svg") no-repeat right center #fff; background-size:20px }
+.accordion .btn:hover, .accordion .btn:focus, .accordion .btn.focus{ text-decoration:none }
+.accordion .card-body{ padding:15px 12px }  
+.accordion .custom-control { margin-bottom:0 }
+.accordion.accordion-2 .btn{ font-size: 17px; font-weight: 300; color:#000; background:url("../images/icon-down-arrow.png") no-repeat left center #fff; border-bottom: inherit }
+.accordion.accordion-2 .btn.collapsed{ background:url("../images/icon-right-arrow.png") no-repeat left center #fff }
+.accordion.accordion-2 .btn:focus{ box-shadow:inherit }
+.accordion.accordion-2 .btn{ padding-left:16px }
+.accordion.accordion-2 .card-body{ padding: 5px 16px }
+.accordion .link{ padding-left: 15px; background:url("../images/icon-down-arrow.png") no-repeat left center }
+.accordion .link.collapsed{ background:url("../images/icon-right-arrow.png") no-repeat left center }
+
+/*=================================================================
+STEPPER CUSTOM -  CSS START
+========================================================================= */
+ul.stepper{ width: 100%; padding:5px 0 10px; margin:0; list-style: none;  }
+ul.stepper li{ min-width:16%; text-align: center; font-size: 14px; color: #464646; float: left; list-style: none; padding:40px 0 0; margin:0; position: relative }
+ul.stepper li a{ color: #464646; background-color: inherit }
+ul.stepper li.active a{ font-weight: 500; color: #005EFF }
+ul.stepper li span{ width: 28px; height:28px; display:block; margin: 0 auto; vertical-align: middle; position: absolute; top: 0; left: 0; right: 0; z-index:2; content: ''; background-color: #979797;  
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100% }
+ul.stepper li span img{ width: 17px; line-height: 28px; display: block; margin: 8px auto 0 }
+ul.stepper li:after{ width: 100%; height: 1px; background:#c4c4c4; display: block; position: absolute; top: 14px; left: -50%; z-index: 1; content: '' }
+ul.stepper li:first-child:after{ display: none }
+ul.stepper li span.bg-success{ background: url('../images/icon-stepper-tick-light.svg') no-repeat center #005EFF }
+
+
+/*=================================================================
+SUMMERY LIST CUSTOM -  CSS START
+========================================================================= */
+ul.summery-list{ padding: 0; margin:0 }
+ul.summery-list li{ padding: 0; margin:5px 0 15px; list-style: none; font-size:12px; line-height: 18px; color:#8D8D8D; }
+ul.summery-list li span{ display: block; font-size:14px; color:#000; }
+
+
+
+/*=================================================================
+EMPLOYEE PAGE CUSTOM -  CSS START
+========================================================================= */
+.img-employee{ width: 32px; height: 32px; vertical-align: middle; background-position: center top  !important; background-size: cover  !important; background-repeat: no-repeat !important;
+border-radius:100%;
+-webkit-border-radius:100%;
+-moz-border-radius:100% }
+
+@media screen and (max-width: 991px) {
+.c-scroll-m{ width: 100%; overflow-x: auto }
+.c-scroll-m .row{ flex-wrap:inherit } 
+}
+
+
+
+
+
+
+/*=================================================================
+NEW HIRE CUSTOM -  CSS START
+========================================================================= */ 
+.new-hire-profile-img{ width:65px; height:65px; position: relative; float: left }
+.new-hire-img{ width:100%; height:100%; border: 1px solid rgba(0,0,0,0.1); background-size: 100%; background-repeat: no-repeat; background-position: center top;
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100% }
+.new-hire-profile-img .btn-edit{ width: 26px; height:26px; background: #fff; padding: 6px; position: absolute; bottom: 0; right: 0;
+	box-shadow: 0 0 1px rgba(0,0,0,0.7);
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%; }
+.new-hire-profile-img .btn-edit img{ width:12px; margin: 0 auto; display:block; vertical-align: top }
+.user-info{ margin-left:76px  }
+.user-info h2{ padding-bottom: 4px }
+.user-info a{ text-decoration:underline }
+.user-info a:hover{ text-decoration:none } 
+.new-hire-info p{ font-size: 15px }
+.new-hire-info p a{ color: rgba(0,0,0,0.5); text-decoration: none }
+
+
+
+
+
+
+
+
+
+
+/*
+18.04.2019
+New 
+Css
+Start
+
+
+*/
+
+/*=================================================================
+POSITION CUSTOM -  CSS START
+========================================================================= */
+.t-0{ top:0 }
+.r-0{ right:0 }
+.b-0{ bottom:0 }
+.l-0{ left:0 }
+.t-5{ top:5px }
+.r-5{ right:5px }
+.b-5{ bottom:5px }
+.l-5{ left:5px }
+.t-10{ top:10px }
+.r-10{ right:10px }
+.b-10{ bottom:10px }
+.l-10{ left:10px }
+
+.hide{ display: none } 
+
+/*=================================================================
+MARGIN CUSTOM -  CSS START
+========================================================================= */
+.mt-1{ margin-top:8px !important }
+.mb-1{ margin-bottom:8px !important }
+.ml-1{ margin-left:8px !important }
+.mr-1{ margin-right:8px !important }
+.mt-2{ margin-top:10px !important }
+.mb-2{ margin-bottom:10px !important }
+.ml-2{ margin-left:10px !important }
+.mr-2{ margin-right:10px !important }
+.mt-3{ margin-top:20px !important }
+.mb-3{ margin-bottom:20px !important }
+.ml-3{ margin-left:20px !important }
+.mr-3{ margin-right:20px !important }
+.mt-4{ margin-top:25px !important }
+.mb-4{ margin-bottom:25px !important }
+.ml-4{ margin-left:25px !important }
+.mr-4{ margin-right:25px !important }
+.mt-5{ margin-top:30px !important }
+.mb-5{ margin-bottom:30px !important }
+.ml-5{ margin-left:30px !important }
+.mr-5{ margin-right:30px !important }
+
+/*=================================================================
+PADDING CUSTOM -  CSS START
+========================================================================= */
+.p-5{ padding: 30px !important }
+.pt-1{ padding-top:8px !important }
+.pb-1{ padding-bottom:8px !important }
+.pl-1{ padding-left:8px !important }
+.pr-1{ padding-right:8px !important }
+.pt-2{ padding-top:10px !important }
+.pb-2{ padding-bottom:10px !important }
+.pl-2{ padding-left:10px !important }
+.pr-2{ padding-right:10px !important }
+.pt-3{ padding-top:20px !important }
+.pb-3{ padding-bottom:20px !important }
+.pl-3{ padding-left:20px !important }
+.pr-3{ padding-right:20px !important }
+.pt-4{ padding-top:25px !important }
+.pb-4{ padding-bottom:25px !important }
+.pl-4{ padding-left:25px !important }
+.pr-4{ padding-right:25px !important }
+.pt-5{ padding-top:30px !important }
+.pb-5{ padding-bottom:30px !important }
+.pl-5{ padding-left:30px !important }
+.pr-5{ padding-right:30px !important }
+@media screen and (max-width: 991px) {
+  .p-5{ padding:15px !important }
+}
+/*=================================================================
+EMPLOYEE MANAGEMENT CUSTOM -  CSS START
+========================================================================= */  
+.profile-img{ width:65px; height:65px; position: relative; float: left }
+.profile-img figure{ width:100%; height:100%; margin-bottom: 0; border: 1px solid rgba(0,0,0,0.1); background-size: 100%; background-repeat: no-repeat; background-position: center top;
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100% }
+.employee-info .btn-edit{ width: 28px; height:28px; background: #fff; padding: 6px; position: absolute; bottom: 0; right: 0;
+  border: 1px solid #979797;
+	box-shadow: 0 0 1px rgba(0,0,0,0.7);
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%; }
+.employee-info .btn-edit img{ width:14px; margin: 0 auto; display:block; vertical-align: top }
+.employee-profile-info{ margin-left:76px  }
+.employee-profile-info h1{ padding-bottom: 0 } 
+.employee-profile-info p{ font-size: 16px; color: #242424 } 
+.nav-tabs .nav-item a.nav-link{ padding-right: 40px } 
+.nav-tabs .nav-item:first-child{ padding-left: 25px }
+
+/*=================================================================
+ACCRODIAN OPTION CUSTOMIZE -  CSS START
+========================================================================= */
+.accordion-options{ padding:0; overflow: hidden }
+.accordion-options ul{ padding: 0; margin:0 }
+.accordion-options ul li{ float: left; line-height: 14px; padding:0 14px 0 0; margin:0 14px 0 0; border-right:1px solid #005EFF; list-style: none }
+.accordion-options ul li a{  display: block } 
+.accordion-options ul li:last-child{ border: none; padding-right: 0; margin-right: 0 }
+.accordion-options .text-required{ line-height: 12px; float: right; color: #209237; font-weight: 500 }
+.accordion.accordion-2 h2{ padding-bottom: 15px }
+.accordion.accordion-2 .btn{ font-size: 18px; padding-left: 25px }
+.accordion.accordion-2 .card-body{ padding: 0 25px }
+
+/*=================================================================
+POSITION CUSTOM -  CSS START
+========================================================================= */
+.t-0{ top:0 }
+.r-0{ right:0 }
+.b-0{ bottom:0 }
+.l-0{ left:0 }
+.t-5{ top:5px }
+.r-5{ right:5px }
+.b-5{ bottom:5px }
+.l-5{ left:5px }
+.t-10{ top:10px }
+.r-10{ right:10px }
+.b-10{ bottom:10px }
+.l-10{ left:10px }
+
+/*=================================================================
+BUTTON LINK CUSTOM -  CSS START
+========================================================================= */
+.btn-link{ min-height: 18px; font-size: 14px; line-height: 18px; color: #005EFF; border: none; cursor: pointer }
+.btn-link img{ vertical-align: top }
+.btn-link:hover{ text-decoration: none }
+/*=================================================================
+MODAL CUSTOMIZE -  CSS START
+========================================================================= */
+.modal-header{padding: 14px 30px }
+.modal-body{ padding: 30px 0; margin:0 30px }
+.modal-body .close{ padding: 0; position:absolute; top:20px; right:0; z-index:9 } 
+.modal-body .close span{ vertical-align: top }
+
+
+
+
+
+
+
+
+/* ------------------------------------S P R I N T - 5 - C S S - S T A R T ----------------------------------------------- */ 
+.align-middle{  display: flex; align-items: center }
+/*=================================================================
+USER AUDIT LOG CUSTOMIZE -  CSS START
+========================================================================= */
+.filter-text{ line-height: 26px; vertical-align: top; display: inline-block }
+.form-control-sm{padding: 0 6px }
+/*=================================================================
+TABLE BORDERLESS CUSTOMIZE -  CSS START
+========================================================================= */
+table.table-borderless thead{ background-color: transparent }
+table.table-borderless.p-0 td, table.table-borderless.p-0 th{ padding:8px 5px  } 
+table.table-borderless.p-0 td:first-child, table.table-borderless.p-0 th:first-child{ padding-left: 0px }
+
+.font-weight-bolder{ font-weight: 500 }
+.font-weight-bold{ font-weight: 600 }
+
+.search-section-sm{ width: 225px; height: 28px }
+.search-section-sm input.form-control-sm{ height: 28px;  }
+.search-section-sm .btn-search{ top: 5px }
+
+.nav-settings{ margin: 4px 0 0 10px }
+.dropdown-menu{ -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition:all 0.3s ease-in-out 0s;}
+
+
+
+ul.nav-action{ float:left; padding:0; margin:0 0 0 10px }
+ul.nav-action li{ padding: 0; margin: 0; list-style: none; position: relative } 
+ul.nav-action li button img{ margin-left: 6px }
+ul.nav-action li ul{ width:172px; padding: 0; margin: 0; position: absolute; top:28px; left: auto; opacity:0; visibility:hidden; z-index:99;
+  border:1px solid rgba(0,0,0,.15);
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -webkit-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition:all 0.3s ease-in-out 0s }
+ul.nav-action li:hover ul{ opacity:1; visibility:visible }
+ul.nav-action li ul li{ list-style:none }
+ul.nav-action li ul li a{ font-weight: 400; padding: 5px 12px; color:#464646; background-color: #fff; display: block }
+ul.nav-action li ul li a:hover, ul.nav-action li ul li a.active{ color:#464646; background-color: #f0f0f0 }
+.accordion ul.nav-action button.btn{ min-width:auto; font-weight: 300; padding:0 0 0 10px; background: inherit !important; font-size: 14px !important; color: #fff !important; background-color: #005EFF !important; border-color: #005EFF; position:relative }
+
+table .accordion-options ul li{ padding-right: 6px; margin-right: 6px }
+table .accordion-options ul li a{ font-weight: 400 } 
+.img-pay-user{ width: 40px; height: 40px; float: left; margin:0 8px 0 0 }
+.img-pay-user img{ float: left;
+  border-radius:100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100% }
+
+/*=================================================================
+TABLE FREEZE CUSTOMIZE -  CSS START
+========================================================================= */
+.bg-thead{ background-color: #efefef !important }
+div.scroll-table{width:calc(100% - 306px);overflow-x:scroll;margin-left:306px;overflow-y:visible;padding:0}
+div.scroll-table table.table thead .headcol{ margin-top: -1px; min-height:43px; padding-top: 6px !important }
+div.scroll-table table.table .headcol{ width:306px; min-height:62px; left:0;top:auto; position:absolute; padding: 10px 5px 6px 30px !important; border-right:inherit }
+div.scroll-table table.table td{ border-left:inherit }
+div.scroll-table table thead th, div.scroll-table table thead td{ white-space: nowrap }
+div.scroll-table table.table thead tr th{  min-height: auto; padding-top:6px !important }
+div.scroll-table table.table thead td, div.scroll-table table.table thead th{ padding: 10px 15px }
+div.scroll-table table.table td, div.scroll-table table.table th{ padding: 16px 15px } 
+.scroll-table.accordion .btn{ width:auto; min-width: auto; float: left; font-size: 14px; line-height: 16px; padding-left:18px; border: none }
+div.scroll-table table.table.table-sm thead tr th{ padding:2px 0px !important }
+div.scroll-table table.table.table-sm thead tr th:first-child, div.scroll-table table.table.table-sm tbody tr th:first-child{ padding-left: 15px !important }
+div.scroll-table table.table td.long input{ min-width: 64px }
+div.scroll-table table.table.table-sm td, div.scroll-table table.table.table-sm th{ padding:2px !important; border-left:inherit; border-right:inherit; border: inherit }
+table.table.table-sm thead th{ font-size: 14px; line-height: 16px; vertical-align: middle } 
+table.table-borderless td{ border: none } 
+div.scroll-table table.table.table-sm table.p-0 td{ padding: 0px !important } 
+div.scroll-table table.table.table-sm table.p-0 td input.form-control{ 
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px }
+  div.scroll-table table.table.table-sm table.p-0 td:first-child input.form-control{ 
+    border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px  } 
+  div.scroll-table table.table.table-sm table.p-0 td:last-child input.form-control{ 
+    border-radius: 0 5px 5px 0 ;
+  -webkit-border-radius: 0 5px 5px 0 ;
+  -moz-border-radius: 0 5px 5px 0 }  
+.table-timesheet tbody tr:first-child{ padding-top: 8px }
+table.table-weekely{ width: 100% !important }
+div.scroll-table table.table.table-sm thead tr th table.table-weekely, table.table-weekely{ 
+  box-shadow: inherit !important;
+  -webkit-box-shadow: inherit !important;
+  -moz-box-shadow: inherit !important  }
+div.scroll-table table.table.table-sm thead tr th table.table-weekely th{ padding-left: 0px !important; padding-right: 0px !important }
+.employee-name{ width: 150px; height: 40px; line-height: 16px;
+  display: flex;
+  align-items: center }
+.form-control.form-control-sm.input-50{ margin-right: 0px !important }
+.input-10{ width: 10px; min-width: auto !important }
+.input-20{ width: 20px; min-width: auto !important }
+.input-30{ width: 30px; min-width: auto !important }
+.input-40{ width: 40px; min-width: auto !important }
+.input-50{ width: 50px; min-width: auto !important }
+.input-60{ width: 60px; min-width: auto !important }
+.input-70{ width: 70px; min-width: auto !important }
+.input-80{ width: 80px; min-width: auto !important }
+.input-90{ width: 90px; min-width: auto !important }
+.input-100{ width: 100px; min-width: auto !important }
+.input-110{ width: 110px; min-width: auto !important }
+.input-120{ width: 120px; min-width: auto !important }
+.input-130{ width: 130px; min-width: auto !important }
+.input-140{ width: 140px; min-width: auto !important }
+.input-150{ width: 150px; min-width: auto !important }
+
+ul.nav-hover{ padding: 0; margin:3px 0 0 }
+ul.nav-hover li{ padding: 0; margin: 0; list-style: none; position: relative }
+ul.nav-hover li button img{ opacity: 0.5 }
+ul.nav-hover li:hover button img{ opacity: 1 }
+ul.nav-hover li ul{ width:172px; padding: 0; margin: 0; position: absolute; top:28px; right: 0; opacity:0; visibility:hidden; z-index:99;
+  border:1px solid rgba(0,0,0,.15);
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -webkit-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 0 14px 0 rgba(0,0,0,0.16);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition:all 0.3s ease-in-out 0s }
+ul.nav-hover li:hover ul{ opacity:1; visibility:visible }
+ul.nav-hover li ul li a{ display: block }
+ul.nav-hover li ul li a{ font-weight: 400; padding: 5px 12px; color:#464646; background-color: #fff; display: block }
+ul.nav-hover li ul li a:hover, ul.nav-hover li ul li a.active{ color:#464646; background-color: #f0f0f0 }
+
